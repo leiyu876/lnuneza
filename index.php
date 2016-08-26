@@ -1,5 +1,5 @@
 <?php
-
+var_dump('expression'); exit;
 // change the following paths if necessary
 $yii=dirname(__FILE__).'/../yii_framework/yii.php';
 $config=dirname(__FILE__).'/protected/config/main.php';
