@@ -1,4 +1,5 @@
 <?php
+var_dump('beggining'); exit;
 // change the following paths if necessary
 $yii=dirname(__FILE__).'/yii/yii.php';
 $config=dirname(__FILE__).'/protected/config/main.php';
@@ -9,5 +10,5 @@ defined('YII_DEBUG') or define('YII_DEBUG',true);
 defined('YII_TRACE_LEVEL') or define('YII_TRACE_LEVEL',3);
 
 require_once($yii);
-var_dump('after require yii'); exit;
+
 Yii::createWebApplication($config)->run();
