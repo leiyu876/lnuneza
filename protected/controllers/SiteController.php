@@ -63,7 +63,6 @@ class SiteController extends CController
 	 */
 	public function actionLogin()
 	{
-		var_dump('actionLogin in site'); exit;
 		if(!Yii::app()->user->isGuest) {
 
 			$this->redirect('index');
