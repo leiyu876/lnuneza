@@ -1,9 +1,9 @@
 <?php
 
 return array(
-	'connectionString' => 'pgsql:host=ec2-204-236-228-133.compute-1.amazonaws.com;dbname=da35ekkolejdme',
+	'connectionString' => 'pgsql:host=ec2-54-235-127-48.compute-1.amazonaws.com;dbname=daphifufqkjn20',
 	'emulatePrepare' => true,
-	'username' => 'cbbphcbnoidtgt',
-	'password' => 'EdTNQVPQBHszrhvlQo5s1CoSvl',
+	'username' => 'triysiubaclgcu',
+	'password' => 'uXxAwVCgKghb2beuaLkYlwpXdw',
 	'charset' => 'utf8',
 );
