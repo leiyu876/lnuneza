@@ -1,5 +1,5 @@
 <?php
-var_dump('beggining'); exit;
+
 // change the following paths if necessary
 $yii=dirname(__FILE__).'/yii/yii.php';
 $config=dirname(__FILE__).'/protected/config/main.php';
