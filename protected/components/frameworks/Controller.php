@@ -23,6 +23,15 @@ abstract class Controller extends CController
 
 	public $title = '';
 
+	public function init()
+    {
+        if (Yii::app()->user->isGuest) {
+        	$this->redirect(Yii::app()->createUrl('site/login'));
+        }
+
+        parent::init();
+    }
+
 	abstract public function getOrdering();
 	abstract public function getName();
 	abstract public function getIcon();
