@@ -10,22 +10,22 @@ class ReligionController extends Controller
        );
     }
 
-    public function getOrdering()
+    public function getTabOrdering()
     {
-    	return 2;
+    	return 3;
     }
 
-	public function getName()
+	public function getTabName()
 	{
-		return 'Religion';
+		return 'Religions';
 	}
 
-	public function getIcon()
+	public function getTabIcon()
 	{
 		return 'fa fa-circle-o';
 	}
 
-	public function getLink()
+	public function getTabLink()
 	{
 		return 'setup/religion/index';
 	}

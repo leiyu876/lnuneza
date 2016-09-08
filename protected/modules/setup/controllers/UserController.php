@@ -4,7 +4,7 @@ class UserController extends Controller
 {   
     public function actions()
     {
-       return array(
+        return array(
           'index'  => 'application.modules.setup.controllers.user.index',
           'create' => 'application.modules.setup.controllers.user.create',
           'update' => 'application.modules.setup.controllers.user.update',
@@ -33,22 +33,22 @@ class UserController extends Controller
         Yii::app()->user->setFlash('growler', $growler);
     }
 
-    public function getOrdering()
+    public function getTabOrdering()
     {
     	return 1;
     }
 
-	public function getName()
+	public function getTabName()
 	{
-		return 'Users';
+		return 'System Users';
 	}
 
-	public function getIcon()
+	public function getTabIcon()
 	{
 		return 'fa fa-circle-o';
 	}
 
-	public function getLink()
+	public function getTabLink()
 	{
 		return 'setup/user/index';
 	}

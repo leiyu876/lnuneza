@@ -32,8 +32,8 @@ abstract class Controller extends CController
         parent::init();
     }
 
-	abstract public function getOrdering();
-	abstract public function getName();
-	abstract public function getIcon();
-	abstract public function getLink();
+	abstract public function getTabOrdering();
+	abstract public function getTabName();
+	abstract public function getTabIcon();
+	abstract public function getTabLink();
 }

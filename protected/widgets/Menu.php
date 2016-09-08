@@ -4,12 +4,12 @@ class Menu extends CWidget
 {
 	public function run()
 	{
-		$this->render('menu');
+        $this->render('menu');
 	}
 
 	public function getItems()
-	{
-		$items = array();
+	{  
+        $items = array();
 
 		$items[] = array(
             'label'       => 'NAVIGATION', 
@@ -24,48 +24,34 @@ class Menu extends CWidget
             'itemOptions' => array('class' => 'treeview '.$this->isActive('dashboard'))
         );
 
-        $items[] = array(
-            'label'       =>   '<i class="fa fa-wifi"></i> <span>Wifi</span>
-                                <span class="pull-right-container">
-                                    <i class="fa fa-angle-left pull-right"></i>
-                                </span>',
-            'url'         => array('#'),                        
-            'items' => array(
-                array(
-                    'label' => '<i class="fa fa-circle-o"></i> Wifi Users', 
-                    'url'   => array('/wifi/user/index'),                                
-                    'itemOptions' => array('class' => ''.$this->isActive('wifi/user/index', true)),
-                ),
-                array(
-                    'label' => '<i class="fa fa-circle-o"></i> Mac Address', 
-                    'url'   =>  array('/wifi/mac_address/index'),
-                    'itemOptions' => array('class' => ''.$this->isActive('wifi/mac_address/index', true)),
-                )
-            ),
-            'itemOptions' => array('class' => 'treeview '.$this->isActive('wifi'))
-        );
+        foreach (Yii::app()->modules as $key => $value) {
 
-        $items[] = array(
-            'label'       =>   '<i class="fa fa-gear"></i> <span>Setup</span>
-                                <span class="pull-right-container">
-                                    <i class="fa fa-angle-left pull-right"></i>
-                                </span>',
-            'url'         => array('#'),
-            'items' => array(
-                array(
-                    'label' => '<i class="fa fa-circle-o"></i> System Users', 
-                    'url'   => array('/setup/user/index'),                                
-                    'itemOptions' => array('class' => ''.$this->isActive('setup/user/index', true)),
-                ),
-                array(
-                    'label' => '<i class="fa fa-circle-o"></i> Religions', 
-                    'url'   =>  array('/setup/religion/index'),
-                    'itemOptions' => array('class' => ''.$this->isActive('setup/religion/index', true)),
-                )
-            ),
-            'itemOptions' => array('class' => 'treeview '.$this->isActive('setup'))
-        );
-		
+            $module = Yii::app()->getModule($key);
+
+            if($key == 'wifi') continue;
+
+            $items_sub = array();
+
+            foreach ($this->tabs($module) as $key => $tab_v) {
+                
+                $items_sub[] = array(
+                    'label' => '<i class="'.$tab_v->getTabIcon().'"></i> '.$tab_v->getTabName(), 
+                    'url'   =>  array('/'.$tab_v->getTabLink()),
+                    'itemOptions' => array('class' => $this->isActive($tab_v->getTabLink(), true))
+                );
+            }
+
+            $items[] = array(
+                'label'       =>   '<i class="'.$module->getModuleIcon().'"></i> <span>'.$module->getModuleName().'</span>
+                                    <span class="pull-right-container">
+                                        <i class="fa fa-angle-left pull-right"></i>
+                                    </span>',
+                'url'         => array('#'),                        
+                'items' => $items_sub,
+                'itemOptions' => array('class' => 'treeview '.$this->isActive($module->getModuleLink()))
+            );
+        }
+        
 		return $items;
 	}
 
@@ -98,4 +84,33 @@ class Menu extends CWidget
 
 		return $str;
 	}
+
+    private function tabs($module) 
+    {
+        $path = $module->getControllerPath();
+        
+        Yii::import('application.modules.'.$module->id.'.controllers.*');
+
+        $files = scandir($path);
+        $tabs  = array();
+
+        foreach($files as $f) {
+            if($f == '.' OR $f == '..')    continue;
+            if(!file_exists($path.'/'.$f)) continue;
+            if(is_dir($path.'/'.$f))       continue;
+            
+            $cls = basename($f, ".php");
+            $obj = new $cls(strtolower($cls));
+            
+            if(!is_subclass_of($obj, 'Controller')) continue;
+
+            $id = $obj -> getTabOrdering();
+
+            $tabs[$id] = $obj;
+        }
+
+        ksort($tabs);
+
+        return $tabs;
+    }
 }

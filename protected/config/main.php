@@ -78,9 +78,11 @@ return array(
 					'levels'=>'error, warning',
 				),
 				// display error on web at bottom part
+				/*
 				array(
 					'class'=>'CWebLogRoute',
-				),								
+				),
+				*/								
 			),
 		),
 

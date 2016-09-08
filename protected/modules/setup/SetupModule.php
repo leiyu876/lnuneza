@@ -18,6 +18,10 @@ class SetupModule extends WebModule
     }
 
     public function getModuleIcon(){
-    	return 'fa fa-cirle-o';
+    	return 'fa fa-cog';
+    }
+
+    public function getModuleLink(){
+        return 'setup';
     }
 }

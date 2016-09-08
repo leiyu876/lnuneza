@@ -9,7 +9,7 @@ class Index extends CAction {
         $data = array(
             'title' => $ctr->getTabName(),            
             'lists' => $ctr->_lists(),
-            'model_common' => new User,
+            'model_common' => new Template,
         );
 
         $ctr->render('index', $data);
