@@ -46,8 +46,8 @@
                       <li class="user-header">
                         <img src="<?= Yii::app()->request->baseUrl; ?>/dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
                         <p>
-                          Alexander Pierce - Web Developer
-                          <small>Member since Nov. 2012</small>
+                          Leo Dona Nuneza - Web Developer
+                          <small>Member since Sept. 2016</small>
                         </p>
                       </li>
             
@@ -88,10 +88,10 @@
                             <img src="<?= Yii::app()->request->baseUrl; ?>/dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
                         </div>
                         <div class="pull-left info">
-                            <p>Alexander Pierce</p>
+                            <p>Leo Nuneza</p>
                             <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
                         </div>
-                    </div>                                  
+                    </div>
                     <? $this->widget('application.widgets.Menu'); ?>
                 </section>
             </aside>

@@ -15,7 +15,7 @@ return array(
 	// autoloading model and component classes
 	'import'=>array(
 		'application.models.*',
-		'application.modules.wifi.models.*',
+		'application.modules.fund.models.*',
 		'application.components.frameworks.*',
 		'application.components.helpers.*'
 	),
@@ -30,7 +30,7 @@ return array(
 			'ipFilters'=>array('127.0.0.1','::1'),
 		),
 		*/
-		'wifi',
+		'fund',
 		'setup'
 	),
 

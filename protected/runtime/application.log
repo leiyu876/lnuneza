@@ -3141,3 +3141,927 @@ Stack trace:
 REQUEST_URI=/development/yii/lnuneza/wifi/user/index
 HTTP_REFERER=http://localhost/development/yii/lnuneza/site/index
 ---
+2016/09/30 16:05:03 [error] [php] Undefined variable: form (C:\xampp\htdocs\lnuneza\protected\views\site\login.php:30)
+Stack trace:
+#0 C:\xampp\htdocs\lnuneza\yii\web\CController.php(869): SiteController->renderFile()
+#1 C:\xampp\htdocs\lnuneza\yii\web\CController.php(782): SiteController->renderPartial()
+#2 C:\xampp\htdocs\lnuneza\protected\controllers\SiteController.php(83): SiteController->render()
+#3 C:\xampp\htdocs\lnuneza\yii\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#4 C:\xampp\htdocs\lnuneza\yii\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\lnuneza\yii\web\CController.php(286): SiteController->runAction()
+#6 C:\xampp\htdocs\lnuneza\yii\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\lnuneza\yii\web\CWebApplication.php(282): SiteController->run()
+#8 C:\xampp\htdocs\lnuneza\yii\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\lnuneza\yii\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\lnuneza\index.php(14): CWebApplication->run()
+REQUEST_URI=/lnuneza/site/login
+in C:\xampp\htdocs\lnuneza\protected\views\site\login.php (30)
+in C:\xampp\htdocs\lnuneza\protected\controllers\SiteController.php (83)
+in C:\xampp\htdocs\lnuneza\index.php (14)
+2016/09/30 16:14:00 [error] [php] Undefined variable: form (C:\xampp\htdocs\lnuneza\protected\views\site\login.php:30)
+Stack trace:
+#0 C:\xampp\htdocs\lnuneza\yii\web\CController.php(869): SiteController->renderFile()
+#1 C:\xampp\htdocs\lnuneza\yii\web\CController.php(782): SiteController->renderPartial()
+#2 C:\xampp\htdocs\lnuneza\protected\controllers\SiteController.php(83): SiteController->render()
+#3 C:\xampp\htdocs\lnuneza\yii\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#4 C:\xampp\htdocs\lnuneza\yii\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\lnuneza\yii\web\CController.php(286): SiteController->runAction()
+#6 C:\xampp\htdocs\lnuneza\yii\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\lnuneza\yii\web\CWebApplication.php(282): SiteController->run()
+#8 C:\xampp\htdocs\lnuneza\yii\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\lnuneza\yii\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\lnuneza\index.php(14): CWebApplication->run()
+REQUEST_URI=/lnuneza/site/login
+in C:\xampp\htdocs\lnuneza\protected\views\site\login.php (30)
+in C:\xampp\htdocs\lnuneza\protected\controllers\SiteController.php (83)
+in C:\xampp\htdocs\lnuneza\index.php (14)
+2016/09/30 16:15:29 [error] [php] Undefined variable: form (C:\xampp\htdocs\lnuneza\protected\views\site\login.php:31)
+Stack trace:
+#0 C:\xampp\htdocs\lnuneza\yii\web\CController.php(869): SiteController->renderFile()
+#1 C:\xampp\htdocs\lnuneza\yii\web\CController.php(782): SiteController->renderPartial()
+#2 C:\xampp\htdocs\lnuneza\protected\controllers\SiteController.php(83): SiteController->render()
+#3 C:\xampp\htdocs\lnuneza\yii\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#4 C:\xampp\htdocs\lnuneza\yii\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\lnuneza\yii\web\CController.php(286): SiteController->runAction()
+#6 C:\xampp\htdocs\lnuneza\yii\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\lnuneza\yii\web\CWebApplication.php(282): SiteController->run()
+#8 C:\xampp\htdocs\lnuneza\yii\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\lnuneza\yii\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\lnuneza\index.php(14): CWebApplication->run()
+REQUEST_URI=/lnuneza/site/login
+in C:\xampp\htdocs\lnuneza\protected\views\site\login.php (31)
+in C:\xampp\htdocs\lnuneza\protected\controllers\SiteController.php (83)
+in C:\xampp\htdocs\lnuneza\index.php (14)
+2016/09/30 16:15:31 [error] [php] Undefined variable: form (C:\xampp\htdocs\lnuneza\protected\views\site\login.php:31)
+Stack trace:
+#0 C:\xampp\htdocs\lnuneza\yii\web\CController.php(869): SiteController->renderFile()
+#1 C:\xampp\htdocs\lnuneza\yii\web\CController.php(782): SiteController->renderPartial()
+#2 C:\xampp\htdocs\lnuneza\protected\controllers\SiteController.php(83): SiteController->render()
+#3 C:\xampp\htdocs\lnuneza\yii\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#4 C:\xampp\htdocs\lnuneza\yii\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\lnuneza\yii\web\CController.php(286): SiteController->runAction()
+#6 C:\xampp\htdocs\lnuneza\yii\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\lnuneza\yii\web\CWebApplication.php(282): SiteController->run()
+#8 C:\xampp\htdocs\lnuneza\yii\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\lnuneza\yii\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\lnuneza\index.php(14): CWebApplication->run()
+REQUEST_URI=/lnuneza/site/login
+in C:\xampp\htdocs\lnuneza\protected\views\site\login.php (31)
+in C:\xampp\htdocs\lnuneza\protected\controllers\SiteController.php (83)
+in C:\xampp\htdocs\lnuneza\index.php (14)
+2016/09/30 16:15:32 [error] [php] Undefined variable: form (C:\xampp\htdocs\lnuneza\protected\views\site\login.php:31)
+Stack trace:
+#0 C:\xampp\htdocs\lnuneza\yii\web\CController.php(869): SiteController->renderFile()
+#1 C:\xampp\htdocs\lnuneza\yii\web\CController.php(782): SiteController->renderPartial()
+#2 C:\xampp\htdocs\lnuneza\protected\controllers\SiteController.php(83): SiteController->render()
+#3 C:\xampp\htdocs\lnuneza\yii\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#4 C:\xampp\htdocs\lnuneza\yii\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\lnuneza\yii\web\CController.php(286): SiteController->runAction()
+#6 C:\xampp\htdocs\lnuneza\yii\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\lnuneza\yii\web\CWebApplication.php(282): SiteController->run()
+#8 C:\xampp\htdocs\lnuneza\yii\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\lnuneza\yii\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\lnuneza\index.php(14): CWebApplication->run()
+REQUEST_URI=/lnuneza/site/login
+in C:\xampp\htdocs\lnuneza\protected\views\site\login.php (31)
+in C:\xampp\htdocs\lnuneza\protected\controllers\SiteController.php (83)
+in C:\xampp\htdocs\lnuneza\index.php (14)
+2016/09/30 16:16:18 [error] [php] Undefined variable: form (C:\xampp\htdocs\lnuneza\protected\views\site\login.php:31)
+Stack trace:
+#0 C:\xampp\htdocs\lnuneza\yii\web\CController.php(869): SiteController->renderFile()
+#1 C:\xampp\htdocs\lnuneza\yii\web\CController.php(782): SiteController->renderPartial()
+#2 C:\xampp\htdocs\lnuneza\protected\controllers\SiteController.php(83): SiteController->render()
+#3 C:\xampp\htdocs\lnuneza\yii\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#4 C:\xampp\htdocs\lnuneza\yii\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\lnuneza\yii\web\CController.php(286): SiteController->runAction()
+#6 C:\xampp\htdocs\lnuneza\yii\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\lnuneza\yii\web\CWebApplication.php(282): SiteController->run()
+#8 C:\xampp\htdocs\lnuneza\yii\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\lnuneza\yii\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\lnuneza\index.php(14): CWebApplication->run()
+REQUEST_URI=/lnuneza/site/login
+in C:\xampp\htdocs\lnuneza\protected\views\site\login.php (31)
+in C:\xampp\htdocs\lnuneza\protected\controllers\SiteController.php (83)
+in C:\xampp\htdocs\lnuneza\index.php (14)
+2016/09/30 16:17:49 [error] [exception.CDbException] exception 'CDbException' with message 'The table "setup.template" for active record class "Template" cannot be found in the database.' in C:\xampp\htdocs\lnuneza\yii\db\ar\CActiveRecord.php:2385
+Stack trace:
+#0 C:\xampp\htdocs\lnuneza\yii\db\ar\CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(Template))
+#1 C:\xampp\htdocs\lnuneza\yii\db\ar\CActiveRecord.php(661): CActiveRecord->getMetaData()
+#2 C:\xampp\htdocs\lnuneza\yii\db\ar\CActiveRecord.php(1355): CActiveRecord->getTableSchema()
+#3 C:\xampp\htdocs\lnuneza\yii\db\ar\CActiveRecord.php(1475): CActiveRecord->query(Object(CDbCriteria), true)
+#4 C:\xampp\htdocs\lnuneza\protected\modules\setup\controllers\TemplateController.php(19): CActiveRecord->findAll(Array)
+#5 C:\xampp\htdocs\lnuneza\protected\modules\setup\controllers\template\index.php(11): TemplateController->_lists()
+#6 C:\xampp\htdocs\lnuneza\yii\web\actions\CAction.php(76): Index->run()
+#7 C:\xampp\htdocs\lnuneza\yii\web\CController.php(308): CAction->runWithParams(Array)
+#8 C:\xampp\htdocs\lnuneza\yii\web\CController.php(286): CController->runAction(Object(Index))
+#9 C:\xampp\htdocs\lnuneza\yii\web\CController.php(265): CController->runActionWithFilters(Object(Index), Array)
+#10 C:\xampp\htdocs\lnuneza\yii\web\CWebApplication.php(282): CController->run('index')
+#11 C:\xampp\htdocs\lnuneza\yii\web\CWebApplication.php(141): CWebApplication->runController('setup/template/...')
+#12 C:\xampp\htdocs\lnuneza\yii\base\CApplication.php(184): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\lnuneza\index.php(14): CApplication->run()
+#14 {main}
+REQUEST_URI=/lnuneza/setup/template/index
+HTTP_REFERER=http://localhost/lnuneza/setup/user/index
+---
+2016/09/30 16:20:03 [warning] [application] Failed to set unsafe attribute "password_expire" of "User".
+in C:\xampp\htdocs\lnuneza\protected\modules\setup\controllers\user\create.php (13)
+in C:\xampp\htdocs\lnuneza\index.php (14)
+2016/09/30 16:22:04 [error] [exception.CDbException] exception 'CDbException' with message 'The table "setup.template" for active record class "Template" cannot be found in the database.' in C:\xampp\htdocs\lnuneza\yii\db\ar\CActiveRecord.php:2385
+Stack trace:
+#0 C:\xampp\htdocs\lnuneza\yii\db\ar\CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(Template))
+#1 C:\xampp\htdocs\lnuneza\yii\db\ar\CActiveRecord.php(661): CActiveRecord->getMetaData()
+#2 C:\xampp\htdocs\lnuneza\yii\db\ar\CActiveRecord.php(1355): CActiveRecord->getTableSchema()
+#3 C:\xampp\htdocs\lnuneza\yii\db\ar\CActiveRecord.php(1475): CActiveRecord->query(Object(CDbCriteria), true)
+#4 C:\xampp\htdocs\lnuneza\protected\modules\setup\controllers\TemplateController.php(19): CActiveRecord->findAll(Array)
+#5 C:\xampp\htdocs\lnuneza\protected\modules\setup\controllers\template\index.php(11): TemplateController->_lists()
+#6 C:\xampp\htdocs\lnuneza\yii\web\actions\CAction.php(76): Index->run()
+#7 C:\xampp\htdocs\lnuneza\yii\web\CController.php(308): CAction->runWithParams(Array)
+#8 C:\xampp\htdocs\lnuneza\yii\web\CController.php(286): CController->runAction(Object(Index))
+#9 C:\xampp\htdocs\lnuneza\yii\web\CController.php(265): CController->runActionWithFilters(Object(Index), Array)
+#10 C:\xampp\htdocs\lnuneza\yii\web\CWebApplication.php(282): CController->run('index')
+#11 C:\xampp\htdocs\lnuneza\yii\web\CWebApplication.php(141): CWebApplication->runController('setup/template/...')
+#12 C:\xampp\htdocs\lnuneza\yii\base\CApplication.php(184): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\lnuneza\index.php(14): CApplication->run()
+#14 {main}
+REQUEST_URI=/lnuneza/setup/template/index
+HTTP_REFERER=http://localhost/lnuneza/setup/religion/index
+---
+2016/09/30 17:41:34 [error] [exception.CException] exception 'CException' with message 'BankAccountController cannot find the requested view "index".' in C:\xampp\htdocs\lnuneza\yii\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\lnuneza\yii\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#1 C:\xampp\htdocs\lnuneza\protected\modules\fund\controllers\bankaccount\index.php(9): CController->render('index')
+#2 C:\xampp\htdocs\lnuneza\yii\web\actions\CAction.php(76): Index->run()
+#3 C:\xampp\htdocs\lnuneza\yii\web\CController.php(308): CAction->runWithParams(Array)
+#4 C:\xampp\htdocs\lnuneza\yii\web\CController.php(286): CController->runAction(Object(Index))
+#5 C:\xampp\htdocs\lnuneza\yii\web\CController.php(265): CController->runActionWithFilters(Object(Index), Array)
+#6 C:\xampp\htdocs\lnuneza\yii\web\CWebApplication.php(282): CController->run('index')
+#7 C:\xampp\htdocs\lnuneza\yii\web\CWebApplication.php(141): CWebApplication->runController('fund/bankaccoun...')
+#8 C:\xampp\htdocs\lnuneza\yii\base\CApplication.php(184): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\lnuneza\index.php(14): CApplication->run()
+#10 {main}
+REQUEST_URI=/lnuneza/fund/bankaccount/index
+HTTP_REFERER=http://localhost/lnuneza/setup/user/index
+---
+2016/09/30 17:41:46 [error] [exception.CException] exception 'CException' with message 'BankAccountController cannot find the requested view "index".' in C:\xampp\htdocs\lnuneza\yii\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\lnuneza\yii\web\CController.php(782): CController->renderPartial('index', NULL, true)
+#1 C:\xampp\htdocs\lnuneza\protected\modules\fund\controllers\bankaccount\index.php(9): CController->render('index')
+#2 C:\xampp\htdocs\lnuneza\yii\web\actions\CAction.php(76): Index->run()
+#3 C:\xampp\htdocs\lnuneza\yii\web\CController.php(308): CAction->runWithParams(Array)
+#4 C:\xampp\htdocs\lnuneza\yii\web\CController.php(286): CController->runAction(Object(Index))
+#5 C:\xampp\htdocs\lnuneza\yii\web\CController.php(265): CController->runActionWithFilters(Object(Index), Array)
+#6 C:\xampp\htdocs\lnuneza\yii\web\CWebApplication.php(282): CController->run('index')
+#7 C:\xampp\htdocs\lnuneza\yii\web\CWebApplication.php(141): CWebApplication->runController('fund/bankaccoun...')
+#8 C:\xampp\htdocs\lnuneza\yii\base\CApplication.php(184): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\lnuneza\index.php(14): CApplication->run()
+#10 {main}
+REQUEST_URI=/lnuneza/fund/bankaccount/index
+HTTP_REFERER=http://localhost/lnuneza/setup/user/index
+---
+2016/10/04 17:12:36 [error] [exception.CDbException] exception 'CDbException' with message 'The table "setup.template" for active record class "Template" cannot be found in the database.' in C:\xampp\htdocs\lnuneza\yii\db\ar\CActiveRecord.php:2385
+Stack trace:
+#0 C:\xampp\htdocs\lnuneza\yii\db\ar\CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(Template))
+#1 C:\xampp\htdocs\lnuneza\yii\db\ar\CActiveRecord.php(661): CActiveRecord->getMetaData()
+#2 C:\xampp\htdocs\lnuneza\yii\db\ar\CActiveRecord.php(1355): CActiveRecord->getTableSchema()
+#3 C:\xampp\htdocs\lnuneza\yii\db\ar\CActiveRecord.php(1475): CActiveRecord->query(Object(CDbCriteria), true)
+#4 C:\xampp\htdocs\lnuneza\protected\modules\setup\controllers\TemplateController.php(19): CActiveRecord->findAll(Array)
+#5 C:\xampp\htdocs\lnuneza\protected\modules\setup\controllers\template\index.php(11): TemplateController->_lists()
+#6 C:\xampp\htdocs\lnuneza\yii\web\actions\CAction.php(76): Index->run()
+#7 C:\xampp\htdocs\lnuneza\yii\web\CController.php(308): CAction->runWithParams(Array)
+#8 C:\xampp\htdocs\lnuneza\yii\web\CController.php(286): CController->runAction(Object(Index))
+#9 C:\xampp\htdocs\lnuneza\yii\web\CController.php(265): CController->runActionWithFilters(Object(Index), Array)
+#10 C:\xampp\htdocs\lnuneza\yii\web\CWebApplication.php(282): CController->run('index')
+#11 C:\xampp\htdocs\lnuneza\yii\web\CWebApplication.php(141): CWebApplication->runController('setup/template/...')
+#12 C:\xampp\htdocs\lnuneza\yii\base\CApplication.php(184): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\lnuneza\index.php(14): CApplication->run()
+#14 {main}
+REQUEST_URI=/lnuneza/setup/template/index
+HTTP_REFERER=http://localhost/lnuneza/setup/user/index
+---
+2016/10/04 17:14:08 [error] [php] Undefined variable: title (C:\xampp\htdocs\lnuneza\protected\modules\fund\views\account\index.php:4)
+Stack trace:
+#0 C:\xampp\htdocs\lnuneza\yii\web\CController.php(869): AccountController->renderFile()
+#1 C:\xampp\htdocs\lnuneza\yii\web\CController.php(782): AccountController->renderPartial()
+#2 C:\xampp\htdocs\lnuneza\protected\modules\fund\controllers\account\index.php(9): AccountController->render()
+#3 C:\xampp\htdocs\lnuneza\yii\web\actions\CAction.php(76): Index->run()
+#4 C:\xampp\htdocs\lnuneza\yii\web\CController.php(308): Index->runWithParams()
+#5 C:\xampp\htdocs\lnuneza\yii\web\CController.php(286): AccountController->runAction()
+#6 C:\xampp\htdocs\lnuneza\yii\web\CController.php(265): AccountController->runActionWithFilters()
+#7 C:\xampp\htdocs\lnuneza\yii\web\CWebApplication.php(282): AccountController->run()
+#8 C:\xampp\htdocs\lnuneza\yii\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\lnuneza\yii\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\lnuneza\index.php(14): CWebApplication->run()
+REQUEST_URI=/lnuneza/fund/account/index
+in C:\xampp\htdocs\lnuneza\protected\modules\fund\views\account\index.php (4)
+in C:\xampp\htdocs\lnuneza\protected\modules\fund\controllers\account\index.php (9)
+in C:\xampp\htdocs\lnuneza\index.php (14)
+2016/10/04 17:17:28 [error] [exception.CException] exception 'CException' with message 'AccountController and its behaviors do not have a method or closure named "_lists".' in C:\xampp\htdocs\lnuneza\yii\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\lnuneza\protected\modules\fund\controllers\account\index.php(11): CComponent->__call('_lists', Array)
+#1 C:\xampp\htdocs\lnuneza\protected\modules\fund\controllers\account\index.php(11): AccountController->_lists()
+#2 C:\xampp\htdocs\lnuneza\yii\web\actions\CAction.php(76): Index->run()
+#3 C:\xampp\htdocs\lnuneza\yii\web\CController.php(308): CAction->runWithParams(Array)
+#4 C:\xampp\htdocs\lnuneza\yii\web\CController.php(286): CController->runAction(Object(Index))
+#5 C:\xampp\htdocs\lnuneza\yii\web\CController.php(265): CController->runActionWithFilters(Object(Index), Array)
+#6 C:\xampp\htdocs\lnuneza\yii\web\CWebApplication.php(282): CController->run('index')
+#7 C:\xampp\htdocs\lnuneza\yii\web\CWebApplication.php(141): CWebApplication->runController('fund/account/in...')
+#8 C:\xampp\htdocs\lnuneza\yii\base\CApplication.php(184): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\lnuneza\index.php(14): CApplication->run()
+#10 {main}
+REQUEST_URI=/lnuneza/fund/account/index
+---
+2016/10/04 17:19:07 [error] [php] include(AccountTransaction.php): failed to open stream: No such file or directory (C:\xampp\htdocs\lnuneza\yii\YiiBase.php:432)
+Stack trace:
+#0 C:\xampp\htdocs\lnuneza\protected\modules\fund\controllers\AccountController.php(15): spl_autoload_call()
+#1 C:\xampp\htdocs\lnuneza\protected\modules\fund\controllers\account\index.php(11): AccountController->_lists()
+#2 C:\xampp\htdocs\lnuneza\yii\web\actions\CAction.php(76): Index->run()
+#3 C:\xampp\htdocs\lnuneza\yii\web\CController.php(308): Index->runWithParams()
+#4 C:\xampp\htdocs\lnuneza\yii\web\CController.php(286): AccountController->runAction()
+#5 C:\xampp\htdocs\lnuneza\yii\web\CController.php(265): AccountController->runActionWithFilters()
+#6 C:\xampp\htdocs\lnuneza\yii\web\CWebApplication.php(282): AccountController->run()
+#7 C:\xampp\htdocs\lnuneza\yii\web\CWebApplication.php(141): CWebApplication->runController()
+#8 C:\xampp\htdocs\lnuneza\yii\base\CApplication.php(184): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\lnuneza\index.php(14): CWebApplication->run()
+REQUEST_URI=/lnuneza/fund/account/index
+in C:\xampp\htdocs\lnuneza\protected\modules\fund\controllers\AccountController.php (15)
+in C:\xampp\htdocs\lnuneza\protected\modules\fund\controllers\account\index.php (11)
+in C:\xampp\htdocs\lnuneza\index.php (14)
+2016/10/04 17:21:32 [error] [exception.CDbException] exception 'CDbException' with message 'The table "fund.account_transaction" for active record class "AccountTransaction" cannot be found in the database.' in C:\xampp\htdocs\lnuneza\yii\db\ar\CActiveRecord.php:2385
+Stack trace:
+#0 C:\xampp\htdocs\lnuneza\yii\db\ar\CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(AccountTransaction))
+#1 C:\xampp\htdocs\lnuneza\yii\db\ar\CActiveRecord.php(661): CActiveRecord->getMetaData()
+#2 C:\xampp\htdocs\lnuneza\yii\db\ar\CActiveRecord.php(1355): CActiveRecord->getTableSchema()
+#3 C:\xampp\htdocs\lnuneza\yii\db\ar\CActiveRecord.php(1475): CActiveRecord->query(Object(CDbCriteria), true)
+#4 C:\xampp\htdocs\lnuneza\protected\modules\fund\controllers\AccountController.php(17): CActiveRecord->findAll(Array)
+#5 C:\xampp\htdocs\lnuneza\protected\modules\fund\controllers\account\index.php(11): AccountController->_lists()
+#6 C:\xampp\htdocs\lnuneza\yii\web\actions\CAction.php(76): Index->run()
+#7 C:\xampp\htdocs\lnuneza\yii\web\CController.php(308): CAction->runWithParams(Array)
+#8 C:\xampp\htdocs\lnuneza\yii\web\CController.php(286): CController->runAction(Object(Index))
+#9 C:\xampp\htdocs\lnuneza\yii\web\CController.php(265): CController->runActionWithFilters(Object(Index), Array)
+#10 C:\xampp\htdocs\lnuneza\yii\web\CWebApplication.php(282): CController->run('index')
+#11 C:\xampp\htdocs\lnuneza\yii\web\CWebApplication.php(141): CWebApplication->runController('fund/account/in...')
+#12 C:\xampp\htdocs\lnuneza\yii\base\CApplication.php(184): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\lnuneza\index.php(14): CApplication->run()
+#14 {main}
+REQUEST_URI=/lnuneza/fund/account/index
+---
+2016/10/04 17:22:36 [error] [exception.CDbException] exception 'CDbException' with message 'The table "fund.account_transaction" for active record class "AccountTransaction" cannot be found in the database.' in C:\xampp\htdocs\lnuneza\yii\db\ar\CActiveRecord.php:2385
+Stack trace:
+#0 C:\xampp\htdocs\lnuneza\yii\db\ar\CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(AccountTransaction))
+#1 C:\xampp\htdocs\lnuneza\yii\db\ar\CActiveRecord.php(661): CActiveRecord->getMetaData()
+#2 C:\xampp\htdocs\lnuneza\yii\db\ar\CActiveRecord.php(1355): CActiveRecord->getTableSchema()
+#3 C:\xampp\htdocs\lnuneza\yii\db\ar\CActiveRecord.php(1475): CActiveRecord->query(Object(CDbCriteria), true)
+#4 C:\xampp\htdocs\lnuneza\protected\modules\fund\controllers\AccountController.php(17): CActiveRecord->findAll(Array)
+#5 C:\xampp\htdocs\lnuneza\protected\modules\fund\controllers\account\index.php(11): AccountController->_lists()
+#6 C:\xampp\htdocs\lnuneza\yii\web\actions\CAction.php(76): Index->run()
+#7 C:\xampp\htdocs\lnuneza\yii\web\CController.php(308): CAction->runWithParams(Array)
+#8 C:\xampp\htdocs\lnuneza\yii\web\CController.php(286): CController->runAction(Object(Index))
+#9 C:\xampp\htdocs\lnuneza\yii\web\CController.php(265): CController->runActionWithFilters(Object(Index), Array)
+#10 C:\xampp\htdocs\lnuneza\yii\web\CWebApplication.php(282): CController->run('index')
+#11 C:\xampp\htdocs\lnuneza\yii\web\CWebApplication.php(141): CWebApplication->runController('fund/account/in...')
+#12 C:\xampp\htdocs\lnuneza\yii\base\CApplication.php(184): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\lnuneza\index.php(14): CApplication->run()
+#14 {main}
+REQUEST_URI=/lnuneza/fund/account/index
+---
+2016/10/04 17:23:42 [error] [exception.CDbException] exception 'CDbException' with message 'The table "fund.account_transaction" for active record class "AccountTransaction" cannot be found in the database.' in C:\xampp\htdocs\lnuneza\yii\db\ar\CActiveRecord.php:2385
+Stack trace:
+#0 C:\xampp\htdocs\lnuneza\yii\db\ar\CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(AccountTransaction))
+#1 C:\xampp\htdocs\lnuneza\yii\db\ar\CActiveRecord.php(661): CActiveRecord->getMetaData()
+#2 C:\xampp\htdocs\lnuneza\yii\db\ar\CActiveRecord.php(1355): CActiveRecord->getTableSchema()
+#3 C:\xampp\htdocs\lnuneza\yii\db\ar\CActiveRecord.php(1475): CActiveRecord->query(Object(CDbCriteria), true)
+#4 C:\xampp\htdocs\lnuneza\protected\modules\fund\controllers\AccountController.php(17): CActiveRecord->findAll(Array)
+#5 C:\xampp\htdocs\lnuneza\protected\modules\fund\controllers\account\index.php(11): AccountController->_lists()
+#6 C:\xampp\htdocs\lnuneza\yii\web\actions\CAction.php(76): Index->run()
+#7 C:\xampp\htdocs\lnuneza\yii\web\CController.php(308): CAction->runWithParams(Array)
+#8 C:\xampp\htdocs\lnuneza\yii\web\CController.php(286): CController->runAction(Object(Index))
+#9 C:\xampp\htdocs\lnuneza\yii\web\CController.php(265): CController->runActionWithFilters(Object(Index), Array)
+#10 C:\xampp\htdocs\lnuneza\yii\web\CWebApplication.php(282): CController->run('index')
+#11 C:\xampp\htdocs\lnuneza\yii\web\CWebApplication.php(141): CWebApplication->runController('fund/account/in...')
+#12 C:\xampp\htdocs\lnuneza\yii\base\CApplication.php(184): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\lnuneza\index.php(14): CApplication->run()
+#14 {main}
+REQUEST_URI=/lnuneza/fund/account/index
+---
+2016/10/04 17:24:53 [error] [exception.CDbException] exception 'CDbException' with message 'The table "fund.account" for active record class "AccountTransaction" cannot be found in the database.' in C:\xampp\htdocs\lnuneza\yii\db\ar\CActiveRecord.php:2385
+Stack trace:
+#0 C:\xampp\htdocs\lnuneza\yii\db\ar\CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(AccountTransaction))
+#1 C:\xampp\htdocs\lnuneza\yii\db\ar\CActiveRecord.php(661): CActiveRecord->getMetaData()
+#2 C:\xampp\htdocs\lnuneza\yii\db\ar\CActiveRecord.php(1355): CActiveRecord->getTableSchema()
+#3 C:\xampp\htdocs\lnuneza\yii\db\ar\CActiveRecord.php(1475): CActiveRecord->query(Object(CDbCriteria), true)
+#4 C:\xampp\htdocs\lnuneza\protected\modules\fund\controllers\AccountController.php(17): CActiveRecord->findAll(Array)
+#5 C:\xampp\htdocs\lnuneza\protected\modules\fund\controllers\account\index.php(11): AccountController->_lists()
+#6 C:\xampp\htdocs\lnuneza\yii\web\actions\CAction.php(76): Index->run()
+#7 C:\xampp\htdocs\lnuneza\yii\web\CController.php(308): CAction->runWithParams(Array)
+#8 C:\xampp\htdocs\lnuneza\yii\web\CController.php(286): CController->runAction(Object(Index))
+#9 C:\xampp\htdocs\lnuneza\yii\web\CController.php(265): CController->runActionWithFilters(Object(Index), Array)
+#10 C:\xampp\htdocs\lnuneza\yii\web\CWebApplication.php(282): CController->run('index')
+#11 C:\xampp\htdocs\lnuneza\yii\web\CWebApplication.php(141): CWebApplication->runController('fund/account/in...')
+#12 C:\xampp\htdocs\lnuneza\yii\base\CApplication.php(184): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\lnuneza\index.php(14): CApplication->run()
+#14 {main}
+REQUEST_URI=/lnuneza/fund/account/index
+---
+2016/10/04 17:25:27 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42703]: Undefined column: 7 ERROR:  column "date" does not exist
+LINE 1: SELECT * FROM "setup"."user" "t" ORDER BY date
+                                                  ^. The SQL statement executed was: SELECT * FROM "setup"."user" "t" ORDER BY date.
+in C:\xampp\htdocs\lnuneza\protected\modules\fund\controllers\AccountController.php (17)
+in C:\xampp\htdocs\lnuneza\protected\modules\fund\controllers\account\index.php (11)
+in C:\xampp\htdocs\lnuneza\index.php (14)
+2016/10/04 17:25:27 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42703]: Undefined column: 7 ERROR:  column "date" does not exist
+LINE 1: SELECT * FROM "setup"."user" "t" ORDER BY date
+                                                  ^. The SQL statement executed was: SELECT * FROM "setup"."user" "t" ORDER BY date' in C:\xampp\htdocs\lnuneza\yii\db\CDbCommand.php:543
+Stack trace:
+#0 C:\xampp\htdocs\lnuneza\yii\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\xampp\htdocs\lnuneza\yii\db\ar\CActiveRecord.php(1356): CDbCommand->queryAll()
+#2 C:\xampp\htdocs\lnuneza\yii\db\ar\CActiveRecord.php(1475): CActiveRecord->query(Object(CDbCriteria), true)
+#3 C:\xampp\htdocs\lnuneza\protected\modules\fund\controllers\AccountController.php(17): CActiveRecord->findAll(Array)
+#4 C:\xampp\htdocs\lnuneza\protected\modules\fund\controllers\account\index.php(11): AccountController->_lists()
+#5 C:\xampp\htdocs\lnuneza\yii\web\actions\CAction.php(76): Index->run()
+#6 C:\xampp\htdocs\lnuneza\yii\web\CController.php(308): CAction->runWithParams(Array)
+#7 C:\xampp\htdocs\lnuneza\yii\web\CController.php(286): CController->runAction(Object(Index))
+#8 C:\xampp\htdocs\lnuneza\yii\web\CController.php(265): CController->runActionWithFilters(Object(Index), Array)
+#9 C:\xampp\htdocs\lnuneza\yii\web\CWebApplication.php(282): CController->run('index')
+#10 C:\xampp\htdocs\lnuneza\yii\web\CWebApplication.php(141): CWebApplication->runController('fund/account/in...')
+#11 C:\xampp\htdocs\lnuneza\yii\base\CApplication.php(184): CWebApplication->processRequest()
+#12 C:\xampp\htdocs\lnuneza\index.php(14): CApplication->run()
+#13 {main}
+REQUEST_URI=/lnuneza/fund/account/index
+---
+2016/10/04 17:27:05 [error] [exception.CDbException] exception 'CDbException' with message 'The table "setup.template" for active record class "AccountTransaction" cannot be found in the database.' in C:\xampp\htdocs\lnuneza\yii\db\ar\CActiveRecord.php:2385
+Stack trace:
+#0 C:\xampp\htdocs\lnuneza\yii\db\ar\CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(AccountTransaction))
+#1 C:\xampp\htdocs\lnuneza\yii\db\ar\CActiveRecord.php(661): CActiveRecord->getMetaData()
+#2 C:\xampp\htdocs\lnuneza\yii\db\ar\CActiveRecord.php(1355): CActiveRecord->getTableSchema()
+#3 C:\xampp\htdocs\lnuneza\yii\db\ar\CActiveRecord.php(1475): CActiveRecord->query(Object(CDbCriteria), true)
+#4 C:\xampp\htdocs\lnuneza\protected\modules\fund\controllers\AccountController.php(17): CActiveRecord->findAll(Array)
+#5 C:\xampp\htdocs\lnuneza\protected\modules\fund\controllers\account\index.php(11): AccountController->_lists()
+#6 C:\xampp\htdocs\lnuneza\yii\web\actions\CAction.php(76): Index->run()
+#7 C:\xampp\htdocs\lnuneza\yii\web\CController.php(308): CAction->runWithParams(Array)
+#8 C:\xampp\htdocs\lnuneza\yii\web\CController.php(286): CController->runAction(Object(Index))
+#9 C:\xampp\htdocs\lnuneza\yii\web\CController.php(265): CController->runActionWithFilters(Object(Index), Array)
+#10 C:\xampp\htdocs\lnuneza\yii\web\CWebApplication.php(282): CController->run('index')
+#11 C:\xampp\htdocs\lnuneza\yii\web\CWebApplication.php(141): CWebApplication->runController('fund/account/in...')
+#12 C:\xampp\htdocs\lnuneza\yii\base\CApplication.php(184): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\lnuneza\index.php(14): CApplication->run()
+#14 {main}
+REQUEST_URI=/lnuneza/fund/account/index
+---
+2016/10/04 17:27:57 [error] [exception.CDbException] exception 'CDbException' with message 'The table "template" for active record class "AccountTransaction" cannot be found in the database.' in C:\xampp\htdocs\lnuneza\yii\db\ar\CActiveRecord.php:2385
+Stack trace:
+#0 C:\xampp\htdocs\lnuneza\yii\db\ar\CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(AccountTransaction))
+#1 C:\xampp\htdocs\lnuneza\yii\db\ar\CActiveRecord.php(661): CActiveRecord->getMetaData()
+#2 C:\xampp\htdocs\lnuneza\yii\db\ar\CActiveRecord.php(1355): CActiveRecord->getTableSchema()
+#3 C:\xampp\htdocs\lnuneza\yii\db\ar\CActiveRecord.php(1475): CActiveRecord->query(Object(CDbCriteria), true)
+#4 C:\xampp\htdocs\lnuneza\protected\modules\fund\controllers\AccountController.php(17): CActiveRecord->findAll(Array)
+#5 C:\xampp\htdocs\lnuneza\protected\modules\fund\controllers\account\index.php(11): AccountController->_lists()
+#6 C:\xampp\htdocs\lnuneza\yii\web\actions\CAction.php(76): Index->run()
+#7 C:\xampp\htdocs\lnuneza\yii\web\CController.php(308): CAction->runWithParams(Array)
+#8 C:\xampp\htdocs\lnuneza\yii\web\CController.php(286): CController->runAction(Object(Index))
+#9 C:\xampp\htdocs\lnuneza\yii\web\CController.php(265): CController->runActionWithFilters(Object(Index), Array)
+#10 C:\xampp\htdocs\lnuneza\yii\web\CWebApplication.php(282): CController->run('index')
+#11 C:\xampp\htdocs\lnuneza\yii\web\CWebApplication.php(141): CWebApplication->runController('fund/account/in...')
+#12 C:\xampp\htdocs\lnuneza\yii\base\CApplication.php(184): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\lnuneza\index.php(14): CApplication->run()
+#14 {main}
+REQUEST_URI=/lnuneza/fund/account/index
+---
+2016/10/04 17:30:58 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42703]: Undefined column: 7 ERROR:  column "date" does not exist
+LINE 1: SELECT * FROM "setup"."user" "t" ORDER BY date
+                                                  ^. The SQL statement executed was: SELECT * FROM "setup"."user" "t" ORDER BY date.
+in C:\xampp\htdocs\lnuneza\protected\modules\fund\controllers\AccountController.php (17)
+in C:\xampp\htdocs\lnuneza\protected\modules\fund\controllers\account\index.php (11)
+in C:\xampp\htdocs\lnuneza\index.php (14)
+2016/10/04 17:30:58 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42703]: Undefined column: 7 ERROR:  column "date" does not exist
+LINE 1: SELECT * FROM "setup"."user" "t" ORDER BY date
+                                                  ^. The SQL statement executed was: SELECT * FROM "setup"."user" "t" ORDER BY date' in C:\xampp\htdocs\lnuneza\yii\db\CDbCommand.php:543
+Stack trace:
+#0 C:\xampp\htdocs\lnuneza\yii\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\xampp\htdocs\lnuneza\yii\db\ar\CActiveRecord.php(1356): CDbCommand->queryAll()
+#2 C:\xampp\htdocs\lnuneza\yii\db\ar\CActiveRecord.php(1475): CActiveRecord->query(Object(CDbCriteria), true)
+#3 C:\xampp\htdocs\lnuneza\protected\modules\fund\controllers\AccountController.php(17): CActiveRecord->findAll(Array)
+#4 C:\xampp\htdocs\lnuneza\protected\modules\fund\controllers\account\index.php(11): AccountController->_lists()
+#5 C:\xampp\htdocs\lnuneza\yii\web\actions\CAction.php(76): Index->run()
+#6 C:\xampp\htdocs\lnuneza\yii\web\CController.php(308): CAction->runWithParams(Array)
+#7 C:\xampp\htdocs\lnuneza\yii\web\CController.php(286): CController->runAction(Object(Index))
+#8 C:\xampp\htdocs\lnuneza\yii\web\CController.php(265): CController->runActionWithFilters(Object(Index), Array)
+#9 C:\xampp\htdocs\lnuneza\yii\web\CWebApplication.php(282): CController->run('index')
+#10 C:\xampp\htdocs\lnuneza\yii\web\CWebApplication.php(141): CWebApplication->runController('fund/account/in...')
+#11 C:\xampp\htdocs\lnuneza\yii\base\CApplication.php(184): CWebApplication->processRequest()
+#12 C:\xampp\htdocs\lnuneza\index.php(14): CApplication->run()
+#13 {main}
+REQUEST_URI=/lnuneza/fund/account/index
+HTTP_REFERER=http://localhost/lnuneza/setup/user/index
+---
+2016/10/04 17:31:24 [error] [php] include(Account_Transaction.php): failed to open stream: No such file or directory (C:\xampp\htdocs\lnuneza\yii\YiiBase.php:432)
+Stack trace:
+#0 C:\xampp\htdocs\lnuneza\protected\modules\fund\controllers\account\index.php(12): spl_autoload_call()
+#1 C:\xampp\htdocs\lnuneza\yii\web\actions\CAction.php(76): Index->run()
+#2 C:\xampp\htdocs\lnuneza\yii\web\CController.php(308): Index->runWithParams()
+#3 C:\xampp\htdocs\lnuneza\yii\web\CController.php(286): AccountController->runAction()
+#4 C:\xampp\htdocs\lnuneza\yii\web\CController.php(265): AccountController->runActionWithFilters()
+#5 C:\xampp\htdocs\lnuneza\yii\web\CWebApplication.php(282): AccountController->run()
+#6 C:\xampp\htdocs\lnuneza\yii\web\CWebApplication.php(141): CWebApplication->runController()
+#7 C:\xampp\htdocs\lnuneza\yii\base\CApplication.php(184): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\lnuneza\index.php(14): CWebApplication->run()
+REQUEST_URI=/lnuneza/fund/account/index
+in C:\xampp\htdocs\lnuneza\protected\modules\fund\controllers\account\index.php (12)
+in C:\xampp\htdocs\lnuneza\index.php (14)
+2016/10/04 17:32:07 [error] [php] include(Account_Transaction.php): failed to open stream: No such file or directory (C:\xampp\htdocs\lnuneza\yii\YiiBase.php:432)
+Stack trace:
+#0 C:\xampp\htdocs\lnuneza\protected\modules\fund\controllers\account\index.php(12): spl_autoload_call()
+#1 C:\xampp\htdocs\lnuneza\yii\web\actions\CAction.php(76): Index->run()
+#2 C:\xampp\htdocs\lnuneza\yii\web\CController.php(308): Index->runWithParams()
+#3 C:\xampp\htdocs\lnuneza\yii\web\CController.php(286): AccountController->runAction()
+#4 C:\xampp\htdocs\lnuneza\yii\web\CController.php(265): AccountController->runActionWithFilters()
+#5 C:\xampp\htdocs\lnuneza\yii\web\CWebApplication.php(282): AccountController->run()
+#6 C:\xampp\htdocs\lnuneza\yii\web\CWebApplication.php(141): CWebApplication->runController()
+#7 C:\xampp\htdocs\lnuneza\yii\base\CApplication.php(184): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\lnuneza\index.php(14): CWebApplication->run()
+REQUEST_URI=/lnuneza/fund/account/index
+in C:\xampp\htdocs\lnuneza\protected\modules\fund\controllers\account\index.php (12)
+in C:\xampp\htdocs\lnuneza\index.php (14)
+2016/10/04 17:32:23 [error] [php] include(Account_Transaction.php): failed to open stream: No such file or directory (C:\xampp\htdocs\lnuneza\yii\YiiBase.php:432)
+Stack trace:
+#0 C:\xampp\htdocs\lnuneza\protected\modules\fund\controllers\account\index.php(12): spl_autoload_call()
+#1 C:\xampp\htdocs\lnuneza\yii\web\actions\CAction.php(76): Index->run()
+#2 C:\xampp\htdocs\lnuneza\yii\web\CController.php(308): Index->runWithParams()
+#3 C:\xampp\htdocs\lnuneza\yii\web\CController.php(286): AccountController->runAction()
+#4 C:\xampp\htdocs\lnuneza\yii\web\CController.php(265): AccountController->runActionWithFilters()
+#5 C:\xampp\htdocs\lnuneza\yii\web\CWebApplication.php(282): AccountController->run()
+#6 C:\xampp\htdocs\lnuneza\yii\web\CWebApplication.php(141): CWebApplication->runController()
+#7 C:\xampp\htdocs\lnuneza\yii\base\CApplication.php(184): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\lnuneza\index.php(14): CWebApplication->run()
+REQUEST_URI=/lnuneza/fund/account/index
+in C:\xampp\htdocs\lnuneza\protected\modules\fund\controllers\account\index.php (12)
+in C:\xampp\htdocs\lnuneza\index.php (14)
+2016/10/04 17:32:35 [error] [exception.CDbException] exception 'CDbException' with message 'The table "fund.account_transactionss" for active record class "AccountTransaction" cannot be found in the database.' in C:\xampp\htdocs\lnuneza\yii\db\ar\CActiveRecord.php:2385
+Stack trace:
+#0 C:\xampp\htdocs\lnuneza\yii\db\ar\CActiveRecord.php(411): CActiveRecordMetaData->__construct(Object(AccountTransaction))
+#1 C:\xampp\htdocs\lnuneza\yii\db\ar\CActiveRecord.php(661): CActiveRecord->getMetaData()
+#2 C:\xampp\htdocs\lnuneza\yii\db\ar\CActiveRecord.php(1355): CActiveRecord->getTableSchema()
+#3 C:\xampp\htdocs\lnuneza\yii\db\ar\CActiveRecord.php(1475): CActiveRecord->query(Object(CDbCriteria), true)
+#4 C:\xampp\htdocs\lnuneza\protected\modules\fund\controllers\AccountController.php(17): CActiveRecord->findAll(Array)
+#5 C:\xampp\htdocs\lnuneza\protected\modules\fund\controllers\account\index.php(11): AccountController->_lists()
+#6 C:\xampp\htdocs\lnuneza\yii\web\actions\CAction.php(76): Index->run()
+#7 C:\xampp\htdocs\lnuneza\yii\web\CController.php(308): CAction->runWithParams(Array)
+#8 C:\xampp\htdocs\lnuneza\yii\web\CController.php(286): CController->runAction(Object(Index))
+#9 C:\xampp\htdocs\lnuneza\yii\web\CController.php(265): CController->runActionWithFilters(Object(Index), Array)
+#10 C:\xampp\htdocs\lnuneza\yii\web\CWebApplication.php(282): CController->run('index')
+#11 C:\xampp\htdocs\lnuneza\yii\web\CWebApplication.php(141): CWebApplication->runController('fund/account/in...')
+#12 C:\xampp\htdocs\lnuneza\yii\base\CApplication.php(184): CWebApplication->processRequest()
+#13 C:\xampp\htdocs\lnuneza\index.php(14): CApplication->run()
+#14 {main}
+REQUEST_URI=/lnuneza/fund/account/index
+---
+2016/10/04 17:32:59 [error] [php] include(Account_Transaction.php): failed to open stream: No such file or directory (C:\xampp\htdocs\lnuneza\yii\YiiBase.php:432)
+Stack trace:
+#0 C:\xampp\htdocs\lnuneza\protected\modules\fund\controllers\account\index.php(12): spl_autoload_call()
+#1 C:\xampp\htdocs\lnuneza\yii\web\actions\CAction.php(76): Index->run()
+#2 C:\xampp\htdocs\lnuneza\yii\web\CController.php(308): Index->runWithParams()
+#3 C:\xampp\htdocs\lnuneza\yii\web\CController.php(286): AccountController->runAction()
+#4 C:\xampp\htdocs\lnuneza\yii\web\CController.php(265): AccountController->runActionWithFilters()
+#5 C:\xampp\htdocs\lnuneza\yii\web\CWebApplication.php(282): AccountController->run()
+#6 C:\xampp\htdocs\lnuneza\yii\web\CWebApplication.php(141): CWebApplication->runController()
+#7 C:\xampp\htdocs\lnuneza\yii\base\CApplication.php(184): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\lnuneza\index.php(14): CWebApplication->run()
+REQUEST_URI=/lnuneza/fund/account/index
+in C:\xampp\htdocs\lnuneza\protected\modules\fund\controllers\account\index.php (12)
+in C:\xampp\htdocs\lnuneza\index.php (14)
+2016/10/04 17:33:19 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42703]: Undefined column: 7 ERROR:  column "date" does not exist
+LINE 1: SELECT * FROM "fund"."account" "t" ORDER BY date
+                                                    ^. The SQL statement executed was: SELECT * FROM "fund"."account" "t" ORDER BY date.
+in C:\xampp\htdocs\lnuneza\protected\modules\fund\controllers\AccountController.php (17)
+in C:\xampp\htdocs\lnuneza\protected\modules\fund\controllers\account\index.php (11)
+in C:\xampp\htdocs\lnuneza\index.php (14)
+2016/10/04 17:33:19 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42703]: Undefined column: 7 ERROR:  column "date" does not exist
+LINE 1: SELECT * FROM "fund"."account" "t" ORDER BY date
+                                                    ^. The SQL statement executed was: SELECT * FROM "fund"."account" "t" ORDER BY date' in C:\xampp\htdocs\lnuneza\yii\db\CDbCommand.php:543
+Stack trace:
+#0 C:\xampp\htdocs\lnuneza\yii\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\xampp\htdocs\lnuneza\yii\db\ar\CActiveRecord.php(1356): CDbCommand->queryAll()
+#2 C:\xampp\htdocs\lnuneza\yii\db\ar\CActiveRecord.php(1475): CActiveRecord->query(Object(CDbCriteria), true)
+#3 C:\xampp\htdocs\lnuneza\protected\modules\fund\controllers\AccountController.php(17): CActiveRecord->findAll(Array)
+#4 C:\xampp\htdocs\lnuneza\protected\modules\fund\controllers\account\index.php(11): AccountController->_lists()
+#5 C:\xampp\htdocs\lnuneza\yii\web\actions\CAction.php(76): Index->run()
+#6 C:\xampp\htdocs\lnuneza\yii\web\CController.php(308): CAction->runWithParams(Array)
+#7 C:\xampp\htdocs\lnuneza\yii\web\CController.php(286): CController->runAction(Object(Index))
+#8 C:\xampp\htdocs\lnuneza\yii\web\CController.php(265): CController->runActionWithFilters(Object(Index), Array)
+#9 C:\xampp\htdocs\lnuneza\yii\web\CWebApplication.php(282): CController->run('index')
+#10 C:\xampp\htdocs\lnuneza\yii\web\CWebApplication.php(141): CWebApplication->runController('fund/account/in...')
+#11 C:\xampp\htdocs\lnuneza\yii\base\CApplication.php(184): CWebApplication->processRequest()
+#12 C:\xampp\htdocs\lnuneza\index.php(14): CApplication->run()
+#13 {main}
+REQUEST_URI=/lnuneza/fund/account/index
+---
+2016/10/04 17:33:41 [error] [php] include(Account_Transaction.php): failed to open stream: No such file or directory (C:\xampp\htdocs\lnuneza\yii\YiiBase.php:432)
+Stack trace:
+#0 C:\xampp\htdocs\lnuneza\protected\modules\fund\controllers\account\index.php(12): spl_autoload_call()
+#1 C:\xampp\htdocs\lnuneza\yii\web\actions\CAction.php(76): Index->run()
+#2 C:\xampp\htdocs\lnuneza\yii\web\CController.php(308): Index->runWithParams()
+#3 C:\xampp\htdocs\lnuneza\yii\web\CController.php(286): AccountController->runAction()
+#4 C:\xampp\htdocs\lnuneza\yii\web\CController.php(265): AccountController->runActionWithFilters()
+#5 C:\xampp\htdocs\lnuneza\yii\web\CWebApplication.php(282): AccountController->run()
+#6 C:\xampp\htdocs\lnuneza\yii\web\CWebApplication.php(141): CWebApplication->runController()
+#7 C:\xampp\htdocs\lnuneza\yii\base\CApplication.php(184): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\lnuneza\index.php(14): CWebApplication->run()
+REQUEST_URI=/lnuneza/fund/account/index
+in C:\xampp\htdocs\lnuneza\protected\modules\fund\controllers\account\index.php (12)
+in C:\xampp\htdocs\lnuneza\index.php (14)
+2016/10/04 17:34:25 [error] [exception.CException] exception 'CException' with message 'Property "AccountTransaction.username" is not defined.' in C:\xampp\htdocs\lnuneza\yii\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\lnuneza\yii\db\ar\CActiveRecord.php(145): CComponent->__get('username')
+#1 C:\xampp\htdocs\lnuneza\protected\modules\fund\views\account\index.php(47): CActiveRecord->__get('username')
+#2 C:\xampp\htdocs\lnuneza\yii\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\lnuneza\yii\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#4 C:\xampp\htdocs\lnuneza\yii\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#5 C:\xampp\htdocs\lnuneza\yii\web\CController.php(782): CController->renderPartial('index', Array, true)
+#6 C:\xampp\htdocs\lnuneza\protected\modules\fund\controllers\account\index.php(15): CController->render('index', Array)
+#7 C:\xampp\htdocs\lnuneza\yii\web\actions\CAction.php(76): Index->run()
+#8 C:\xampp\htdocs\lnuneza\yii\web\CController.php(308): CAction->runWithParams(Array)
+#9 C:\xampp\htdocs\lnuneza\yii\web\CController.php(286): CController->runAction(Object(Index))
+#10 C:\xampp\htdocs\lnuneza\yii\web\CController.php(265): CController->runActionWithFilters(Object(Index), Array)
+#11 C:\xampp\htdocs\lnuneza\yii\web\CWebApplication.php(282): CController->run('index')
+#12 C:\xampp\htdocs\lnuneza\yii\web\CWebApplication.php(141): CWebApplication->runController('fund/account/in...')
+#13 C:\xampp\htdocs\lnuneza\yii\base\CApplication.php(184): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\lnuneza\index.php(14): CApplication->run()
+#15 {main}
+REQUEST_URI=/lnuneza/fund/account/index
+---
+2016/10/05 17:09:50 [error] [exception.CException] exception 'CException' with message 'AccountController and its behaviors do not have a method or closure named "getDbConnection".' in C:\xampp\htdocs\lnuneza\yii\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\lnuneza\protected\modules\fund\controllers\AccountController.php(31): CComponent->__call('getDbConnection', Array)
+#1 C:\xampp\htdocs\lnuneza\protected\modules\fund\controllers\AccountController.php(31): AccountController->getDbConnection()
+#2 C:\xampp\htdocs\lnuneza\protected\modules\fund\controllers\AccountController.php(19): AccountController->sum_is_in(false)
+#3 C:\xampp\htdocs\lnuneza\protected\modules\fund\controllers\account\index.php(11): AccountController->lists()
+#4 C:\xampp\htdocs\lnuneza\yii\web\actions\CAction.php(76): Index->run()
+#5 C:\xampp\htdocs\lnuneza\yii\web\CController.php(308): CAction->runWithParams(Array)
+#6 C:\xampp\htdocs\lnuneza\yii\web\CController.php(286): CController->runAction(Object(Index))
+#7 C:\xampp\htdocs\lnuneza\yii\web\CController.php(265): CController->runActionWithFilters(Object(Index), Array)
+#8 C:\xampp\htdocs\lnuneza\yii\web\CWebApplication.php(282): CController->run('index')
+#9 C:\xampp\htdocs\lnuneza\yii\web\CWebApplication.php(141): CWebApplication->runController('fund/account/in...')
+#10 C:\xampp\htdocs\lnuneza\yii\base\CApplication.php(184): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\lnuneza\index.php(14): CApplication->run()
+#12 {main}
+REQUEST_URI=/lnuneza/fund/account/index
+---
+2016/10/05 17:10:43 [error] [exception.CException] exception 'CException' with message 'AccountController and its behaviors do not have a method or closure named "createCommand".' in C:\xampp\htdocs\lnuneza\yii\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\lnuneza\protected\modules\fund\controllers\AccountController.php(31): CComponent->__call('createCommand', Array)
+#1 C:\xampp\htdocs\lnuneza\protected\modules\fund\controllers\AccountController.php(31): AccountController->createCommand('SELECT sum(amou...')
+#2 C:\xampp\htdocs\lnuneza\protected\modules\fund\controllers\AccountController.php(19): AccountController->sum_is_in(false)
+#3 C:\xampp\htdocs\lnuneza\protected\modules\fund\controllers\account\index.php(11): AccountController->lists()
+#4 C:\xampp\htdocs\lnuneza\yii\web\actions\CAction.php(76): Index->run()
+#5 C:\xampp\htdocs\lnuneza\yii\web\CController.php(308): CAction->runWithParams(Array)
+#6 C:\xampp\htdocs\lnuneza\yii\web\CController.php(286): CController->runAction(Object(Index))
+#7 C:\xampp\htdocs\lnuneza\yii\web\CController.php(265): CController->runActionWithFilters(Object(Index), Array)
+#8 C:\xampp\htdocs\lnuneza\yii\web\CWebApplication.php(282): CController->run('index')
+#9 C:\xampp\htdocs\lnuneza\yii\web\CWebApplication.php(141): CWebApplication->runController('fund/account/in...')
+#10 C:\xampp\htdocs\lnuneza\yii\base\CApplication.php(184): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\lnuneza\index.php(14): CApplication->run()
+#12 {main}
+REQUEST_URI=/lnuneza/fund/account/index
+---
+2016/10/05 17:14:31 [error] [exception.CException] exception 'CException' with message 'Property "AccountTransaction.total" is not defined.' in C:\xampp\htdocs\lnuneza\yii\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\lnuneza\yii\db\ar\CActiveRecord.php(145): CComponent->__get('total')
+#1 C:\xampp\htdocs\lnuneza\protected\modules\fund\controllers\AccountController.php(35): CActiveRecord->__get('total')
+#2 C:\xampp\htdocs\lnuneza\protected\modules\fund\controllers\AccountController.php(19): AccountController->sum_is_in(false)
+#3 C:\xampp\htdocs\lnuneza\protected\modules\fund\controllers\account\index.php(11): AccountController->lists()
+#4 C:\xampp\htdocs\lnuneza\yii\web\actions\CAction.php(76): Index->run()
+#5 C:\xampp\htdocs\lnuneza\yii\web\CController.php(308): CAction->runWithParams(Array)
+#6 C:\xampp\htdocs\lnuneza\yii\web\CController.php(286): CController->runAction(Object(Index))
+#7 C:\xampp\htdocs\lnuneza\yii\web\CController.php(265): CController->runActionWithFilters(Object(Index), Array)
+#8 C:\xampp\htdocs\lnuneza\yii\web\CWebApplication.php(282): CController->run('index')
+#9 C:\xampp\htdocs\lnuneza\yii\web\CWebApplication.php(141): CWebApplication->runController('fund/account/in...')
+#10 C:\xampp\htdocs\lnuneza\yii\base\CApplication.php(184): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\lnuneza\index.php(14): CApplication->run()
+#12 {main}
+REQUEST_URI=/lnuneza/fund/account/index
+---
+2016/10/05 17:16:14 [error] [system.db.CDbCommand] CDbCommand::fetchColumn() failed: SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at end of input
+LINE 1: ...ECT sum(amount) FROM fund.account_transaction WHERE is_in = 
+                                                                       ^. The SQL statement executed was: SELECT sum(amount) FROM fund.account_transaction WHERE is_in = .
+in C:\xampp\htdocs\lnuneza\protected\modules\fund\controllers\AccountController.php (31)
+in C:\xampp\htdocs\lnuneza\protected\modules\fund\controllers\AccountController.php (19)
+in C:\xampp\htdocs\lnuneza\protected\modules\fund\controllers\account\index.php (11)
+2016/10/05 17:16:14 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42601]: Syntax error: 7 ERROR:  syntax error at end of input
+LINE 1: ...ECT sum(amount) FROM fund.account_transaction WHERE is_in = 
+                                                                       ^. The SQL statement executed was: SELECT sum(amount) FROM fund.account_transaction WHERE is_in = ' in C:\xampp\htdocs\lnuneza\yii\db\CDbCommand.php:543
+Stack trace:
+#0 C:\xampp\htdocs\lnuneza\yii\db\CDbCommand.php(433): CDbCommand->queryInternal('fetchColumn', 0, Array)
+#1 C:\xampp\htdocs\lnuneza\protected\modules\fund\controllers\AccountController.php(31): CDbCommand->queryScalar()
+#2 C:\xampp\htdocs\lnuneza\protected\modules\fund\controllers\AccountController.php(19): AccountController->sum_is_in(false)
+#3 C:\xampp\htdocs\lnuneza\protected\modules\fund\controllers\account\index.php(11): AccountController->lists()
+#4 C:\xampp\htdocs\lnuneza\yii\web\actions\CAction.php(76): Index->run()
+#5 C:\xampp\htdocs\lnuneza\yii\web\CController.php(308): CAction->runWithParams(Array)
+#6 C:\xampp\htdocs\lnuneza\yii\web\CController.php(286): CController->runAction(Object(Index))
+#7 C:\xampp\htdocs\lnuneza\yii\web\CController.php(265): CController->runActionWithFilters(Object(Index), Array)
+#8 C:\xampp\htdocs\lnuneza\yii\web\CWebApplication.php(282): CController->run('index')
+#9 C:\xampp\htdocs\lnuneza\yii\web\CWebApplication.php(141): CWebApplication->runController('fund/account/in...')
+#10 C:\xampp\htdocs\lnuneza\yii\base\CApplication.php(184): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\lnuneza\index.php(14): CApplication->run()
+#12 {main}
+REQUEST_URI=/lnuneza/fund/account/index
+---
+2016/10/05 17:31:48 [error] [php] Undefined variable: list (C:\xampp\htdocs\lnuneza\protected\modules\fund\controllers\AccountController.php:19)
+Stack trace:
+#0 C:\xampp\htdocs\lnuneza\yii\web\CController.php(308): Index->runWithParams()
+#1 C:\xampp\htdocs\lnuneza\yii\web\CController.php(286): AccountController->runAction()
+#2 C:\xampp\htdocs\lnuneza\yii\web\CController.php(265): AccountController->runActionWithFilters()
+#3 C:\xampp\htdocs\lnuneza\yii\web\CWebApplication.php(282): AccountController->run()
+#4 C:\xampp\htdocs\lnuneza\yii\web\CWebApplication.php(141): CWebApplication->runController()
+#5 C:\xampp\htdocs\lnuneza\yii\base\CApplication.php(184): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\lnuneza\index.php(14): CWebApplication->run()
+REQUEST_URI=/lnuneza/fund/account/index
+in C:\xampp\htdocs\lnuneza\protected\modules\fund\controllers\AccountController.php (19)
+in C:\xampp\htdocs\lnuneza\protected\modules\fund\controllers\account\index.php (11)
+in C:\xampp\htdocs\lnuneza\index.php (14)
+2016/10/05 18:14:24 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42703]: Undefined column: 7 ERROR:  column act_involve.account_involve does not exist
+LINE 1: ...1_c3" FROM "fund"."account" "act_involve"  WHERE ("act_invol...
+                                                             ^. The SQL statement executed was: SELECT "act_involve"."id" AS "t1_c0", "act_involve"."owner" AS "t1_c1", "act_involve"."description" AS "t1_c2", "act_involve"."status" AS "t1_c3" FROM "fund"."account" "act_involve"  WHERE ("act_involve"."account_involve"=:ypl0).
+in C:\xampp\htdocs\lnuneza\protected\modules\fund\views\account\index.php (49)
+in C:\xampp\htdocs\lnuneza\protected\modules\fund\controllers\account\index.php (15)
+in C:\xampp\htdocs\lnuneza\index.php (14)
+2016/10/05 18:14:24 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42703]: Undefined column: 7 ERROR:  column act_involve.account_involve does not exist
+LINE 1: ...1_c3" FROM "fund"."account" "act_involve"  WHERE ("act_invol...
+                                                             ^. The SQL statement executed was: SELECT "act_involve"."id" AS "t1_c0", "act_involve"."owner" AS "t1_c1", "act_involve"."description" AS "t1_c2", "act_involve"."status" AS "t1_c3" FROM "fund"."account" "act_involve"  WHERE ("act_involve"."account_involve"=:ypl0)' in C:\xampp\htdocs\lnuneza\yii\db\CDbCommand.php:543
+Stack trace:
+#0 C:\xampp\htdocs\lnuneza\yii\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\xampp\htdocs\lnuneza\yii\db\ar\CActiveFinder.php(808): CDbCommand->queryAll()
+#2 C:\xampp\htdocs\lnuneza\yii\db\ar\CActiveFinder.php(509): CJoinElement->runQuery(Object(CJoinQuery))
+#3 C:\xampp\htdocs\lnuneza\yii\db\ar\CActiveFinder.php(163): CJoinElement->lazyFind(Object(AccountTransaction))
+#4 C:\xampp\htdocs\lnuneza\yii\db\ar\CActiveRecord.php(281): CActiveFinder->lazyFind(Object(AccountTransaction))
+#5 C:\xampp\htdocs\lnuneza\yii\db\ar\CActiveRecord.php(143): CActiveRecord->getRelated('act_involve')
+#6 C:\xampp\htdocs\lnuneza\protected\modules\fund\views\account\index.php(49): CActiveRecord->__get('act_involve')
+#7 C:\xampp\htdocs\lnuneza\yii\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\lnuneza\yii\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#9 C:\xampp\htdocs\lnuneza\yii\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#10 C:\xampp\htdocs\lnuneza\yii\web\CController.php(782): CController->renderPartial('index', Array, true)
+#11 C:\xampp\htdocs\lnuneza\protected\modules\fund\controllers\account\index.php(15): CController->render('index', Array)
+#12 C:\xampp\htdocs\lnuneza\yii\web\actions\CAction.php(76): Index->run()
+#13 C:\xampp\htdocs\lnuneza\yii\web\CController.php(308): CAction->runWithParams(Array)
+#14 C:\xampp\htdocs\lnuneza\yii\web\CController.php(286): CController->runAction(Object(Index))
+#15 C:\xampp\htdocs\lnuneza\yii\web\CController.php(265): CController->runActionWithFilters(Object(Index), Array)
+#16 C:\xampp\htdocs\lnuneza\yii\web\CWebApplication.php(282): CController->run('index')
+#17 C:\xampp\htdocs\lnuneza\yii\web\CWebApplication.php(141): CWebApplication->runController('fund/account/in...')
+#18 C:\xampp\htdocs\lnuneza\yii\base\CApplication.php(184): CWebApplication->processRequest()
+#19 C:\xampp\htdocs\lnuneza\index.php(14): CApplication->run()
+#20 {main}
+REQUEST_URI=/lnuneza/fund/account/index
+---
+2016/10/05 18:34:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fund/accounttransactions/index".' in C:\xampp\htdocs\lnuneza\yii\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\lnuneza\yii\web\CWebApplication.php(141): CWebApplication->runController('fund/accounttra...')
+#1 C:\xampp\htdocs\lnuneza\yii\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\lnuneza\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/lnuneza/fund/accounttransactions/index
+HTTP_REFERER=http://localhost/lnuneza/setup/user/index
+---
+2016/10/05 18:39:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "create".' in C:\xampp\htdocs\lnuneza\yii\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\lnuneza\yii\web\CController.php(270): CController->missingAction('create')
+#1 C:\xampp\htdocs\lnuneza\yii\web\CWebApplication.php(282): CController->run('create')
+#2 C:\xampp\htdocs\lnuneza\yii\web\CWebApplication.php(141): CWebApplication->runController('fund/accounttra...')
+#3 C:\xampp\htdocs\lnuneza\yii\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\lnuneza\index.php(14): CApplication->run()
+#5 {main}
+REQUEST_URI=/lnuneza/fund/accounttransaction/create
+HTTP_REFERER=http://localhost/lnuneza/fund/accounttransaction/index
+---
+2016/10/05 18:42:30 [error] [php] include(AccaountTransaction.php): failed to open stream: No such file or directory (C:\xampp\htdocs\lnuneza\yii\YiiBase.php:432)
+Stack trace:
+#0 C:\xampp\htdocs\lnuneza\protected\modules\fund\controllers\accounttransaction\create.php(9): spl_autoload_call()
+#1 C:\xampp\htdocs\lnuneza\yii\web\actions\CAction.php(76): Create->run()
+#2 C:\xampp\htdocs\lnuneza\yii\web\CController.php(308): Create->runWithParams()
+#3 C:\xampp\htdocs\lnuneza\yii\web\CController.php(286): AccountTransactionController->runAction()
+#4 C:\xampp\htdocs\lnuneza\yii\web\CController.php(265): AccountTransactionController->runActionWithFilters()
+#5 C:\xampp\htdocs\lnuneza\yii\web\CWebApplication.php(282): AccountTransactionController->run()
+#6 C:\xampp\htdocs\lnuneza\yii\web\CWebApplication.php(141): CWebApplication->runController()
+#7 C:\xampp\htdocs\lnuneza\yii\base\CApplication.php(184): CWebApplication->processRequest()
+#8 C:\xampp\htdocs\lnuneza\index.php(14): CWebApplication->run()
+REQUEST_URI=/lnuneza/fund/accounttransaction/create
+in C:\xampp\htdocs\lnuneza\protected\modules\fund\controllers\accounttransaction\create.php (9)
+in C:\xampp\htdocs\lnuneza\index.php (14)
+2016/10/05 18:43:06 [error] [exception.CException] exception 'CException' with message 'AccountTransactionController and its behaviors do not have a method or closure named "_lists".' in C:\xampp\htdocs\lnuneza\yii\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\lnuneza\protected\modules\fund\controllers\accounttransaction\create.php(25): CComponent->__call('_lists', Array)
+#1 C:\xampp\htdocs\lnuneza\protected\modules\fund\controllers\accounttransaction\create.php(25): AccountTransactionController->_lists()
+#2 C:\xampp\htdocs\lnuneza\yii\web\actions\CAction.php(76): Create->run()
+#3 C:\xampp\htdocs\lnuneza\yii\web\CController.php(308): CAction->runWithParams(Array)
+#4 C:\xampp\htdocs\lnuneza\yii\web\CController.php(286): CController->runAction(Object(Create))
+#5 C:\xampp\htdocs\lnuneza\yii\web\CController.php(265): CController->runActionWithFilters(Object(Create), Array)
+#6 C:\xampp\htdocs\lnuneza\yii\web\CWebApplication.php(282): CController->run('create')
+#7 C:\xampp\htdocs\lnuneza\yii\web\CWebApplication.php(141): CWebApplication->runController('fund/accounttra...')
+#8 C:\xampp\htdocs\lnuneza\yii\base\CApplication.php(184): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\lnuneza\index.php(14): CApplication->run()
+#10 {main}
+REQUEST_URI=/lnuneza/fund/accounttransaction/create
+---
+2016/10/05 18:44:06 [error] [exception.CException] exception 'CException' with message 'Property "AccountTransaction.username" is not defined.' in C:\xampp\htdocs\lnuneza\yii\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\lnuneza\yii\db\ar\CActiveRecord.php(145): CComponent->__get('username')
+#1 C:\xampp\htdocs\lnuneza\yii\web\helpers\CHtml.php(2728): CActiveRecord->__get('username')
+#2 C:\xampp\htdocs\lnuneza\yii\web\helpers\CHtml.php(2451): CHtml::resolveValue(Object(AccountTransaction), 'username')
+#3 C:\xampp\htdocs\lnuneza\yii\web\helpers\CHtml.php(1533): CHtml::activeInputField('text', Object(AccountTransaction), 'username', Array)
+#4 C:\xampp\htdocs\lnuneza\yii\web\widgets\CActiveForm.php(792): CHtml::activeTextField(Object(AccountTransaction), 'username', Array)
+#5 C:\xampp\htdocs\lnuneza\protected\modules\fund\views\accounttransaction\index.php(89): CActiveForm->textField(Object(AccountTransaction), 'username', Array)
+#6 C:\xampp\htdocs\lnuneza\yii\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\lnuneza\yii\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#8 C:\xampp\htdocs\lnuneza\yii\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#9 C:\xampp\htdocs\lnuneza\yii\web\CController.php(782): CController->renderPartial('index', Array, true)
+#10 C:\xampp\htdocs\lnuneza\protected\modules\fund\controllers\accounttransaction\create.php(30): CController->render('index', Array)
+#11 C:\xampp\htdocs\lnuneza\yii\web\actions\CAction.php(76): Create->run()
+#12 C:\xampp\htdocs\lnuneza\yii\web\CController.php(308): CAction->runWithParams(Array)
+#13 C:\xampp\htdocs\lnuneza\yii\web\CController.php(286): CController->runAction(Object(Create))
+#14 C:\xampp\htdocs\lnuneza\yii\web\CController.php(265): CController->runActionWithFilters(Object(Create), Array)
+#15 C:\xampp\htdocs\lnuneza\yii\web\CWebApplication.php(282): CController->run('create')
+#16 C:\xampp\htdocs\lnuneza\yii\web\CWebApplication.php(141): CWebApplication->runController('fund/accounttra...')
+#17 C:\xampp\htdocs\lnuneza\yii\base\CApplication.php(184): CWebApplication->processRequest()
+#18 C:\xampp\htdocs\lnuneza\index.php(14): CApplication->run()
+#19 {main}
+REQUEST_URI=/lnuneza/fund/accounttransaction/create
+---
+2016/10/06 07:00:01 [error] [exception.CException] exception 'CException' with message 'Property "AccountTransaction.statusOptions" is not defined.' in C:\xampp\htdocs\lnuneza\yii\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\lnuneza\yii\db\ar\CActiveRecord.php(145): CComponent->__get('statusOptions')
+#1 C:\xampp\htdocs\lnuneza\protected\modules\fund\views\accounttransaction\index.php(101): CActiveRecord->__get('statusOptions')
+#2 C:\xampp\htdocs\lnuneza\yii\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\lnuneza\yii\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#4 C:\xampp\htdocs\lnuneza\yii\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#5 C:\xampp\htdocs\lnuneza\yii\web\CController.php(782): CController->renderPartial('index', Array, true)
+#6 C:\xampp\htdocs\lnuneza\protected\modules\fund\controllers\accounttransaction\create.php(30): CController->render('index', Array)
+#7 C:\xampp\htdocs\lnuneza\yii\web\actions\CAction.php(76): Create->run()
+#8 C:\xampp\htdocs\lnuneza\yii\web\CController.php(308): CAction->runWithParams(Array)
+#9 C:\xampp\htdocs\lnuneza\yii\web\CController.php(286): CController->runAction(Object(Create))
+#10 C:\xampp\htdocs\lnuneza\yii\web\CController.php(265): CController->runActionWithFilters(Object(Create), Array)
+#11 C:\xampp\htdocs\lnuneza\yii\web\CWebApplication.php(282): CController->run('create')
+#12 C:\xampp\htdocs\lnuneza\yii\web\CWebApplication.php(141): CWebApplication->runController('fund/accounttra...')
+#13 C:\xampp\htdocs\lnuneza\yii\base\CApplication.php(184): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\lnuneza\index.php(14): CApplication->run()
+#15 {main}
+REQUEST_URI=/lnuneza/fund/accounttransaction/create
+HTTP_REFERER=http://localhost/lnuneza/fund/accounttransaction/index
+---
+2016/10/06 07:47:31 [warning] [application] Failed to set unsafe attribute "is_in" of "AccountTransaction".
+in C:\xampp\htdocs\lnuneza\protected\modules\fund\controllers\accounttransaction\create.php (13)
+in C:\xampp\htdocs\lnuneza\index.php (14)
+2016/10/06 07:47:31 [warning] [application] Failed to set unsafe attribute "is_payable" of "AccountTransaction".
+in C:\xampp\htdocs\lnuneza\protected\modules\fund\controllers\accounttransaction\create.php (13)
+in C:\xampp\htdocs\lnuneza\index.php (14)
+2016/10/06 07:47:31 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23502]: Not null violation: 7 ERROR:  null value in column "owner" violates not-null constraint
+DETAIL:  Failing row contains (4, null, 2, 500, 2016-02-15, Short In Allowance, f, f, f).. The SQL statement executed was: INSERT INTO "fund"."account_transaction" ("is_in", "is_payable", "is_paid", "date", "account_involve", "amount", "description") VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6).
+in C:\xampp\htdocs\lnuneza\protected\modules\fund\controllers\accounttransaction\create.php (15)
+in C:\xampp\htdocs\lnuneza\index.php (14)
+2016/10/06 07:47:31 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23502]: Not null violation: 7 ERROR:  null value in column "owner" violates not-null constraint
+DETAIL:  Failing row contains (4, null, 2, 500, 2016-02-15, Short In Allowance, f, f, f).. The SQL statement executed was: INSERT INTO "fund"."account_transaction" ("is_in", "is_payable", "is_paid", "date", "account_involve", "amount", "description") VALUES (:yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6)' in C:\xampp\htdocs\lnuneza\yii\db\CDbCommand.php:358
+Stack trace:
+#0 C:\xampp\htdocs\lnuneza\yii\db\ar\CActiveRecord.php(1080): CDbCommand->execute()
+#1 C:\xampp\htdocs\lnuneza\yii\db\ar\CActiveRecord.php(809): CActiveRecord->insert(NULL)
+#2 C:\xampp\htdocs\lnuneza\protected\modules\fund\controllers\accounttransaction\create.php(15): CActiveRecord->save()
+#3 C:\xampp\htdocs\lnuneza\yii\web\actions\CAction.php(76): Create->run()
+#4 C:\xampp\htdocs\lnuneza\yii\web\CController.php(308): CAction->runWithParams(Array)
+#5 C:\xampp\htdocs\lnuneza\yii\web\CController.php(286): CController->runAction(Object(Create))
+#6 C:\xampp\htdocs\lnuneza\yii\web\CController.php(265): CController->runActionWithFilters(Object(Create), Array)
+#7 C:\xampp\htdocs\lnuneza\yii\web\CWebApplication.php(282): CController->run('create')
+#8 C:\xampp\htdocs\lnuneza\yii\web\CWebApplication.php(141): CWebApplication->runController('fund/accounttra...')
+#9 C:\xampp\htdocs\lnuneza\yii\base\CApplication.php(184): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\lnuneza\index.php(14): CApplication->run()
+#11 {main}
+REQUEST_URI=/lnuneza/fund/accounttransaction/create
+HTTP_REFERER=http://localhost/lnuneza/fund/accounttransaction/create
+---
+2016/10/06 07:49:36 [warning] [application] Failed to set unsafe attribute "is_in" of "AccountTransaction".
+in C:\xampp\htdocs\lnuneza\protected\modules\fund\controllers\accounttransaction\create.php (13)
+in C:\xampp\htdocs\lnuneza\index.php (14)
+2016/10/06 07:49:36 [warning] [application] Failed to set unsafe attribute "is_payable" of "AccountTransaction".
+in C:\xampp\htdocs\lnuneza\protected\modules\fund\controllers\accounttransaction\create.php (13)
+in C:\xampp\htdocs\lnuneza\index.php (14)
+2016/10/06 07:50:43 [warning] [application] Failed to set unsafe attribute "is_in" of "AccountTransaction".
+in C:\xampp\htdocs\lnuneza\protected\modules\fund\controllers\accounttransaction\create.php (13)
+in C:\xampp\htdocs\lnuneza\index.php (14)
+2016/10/06 07:50:43 [warning] [application] Failed to set unsafe attribute "is_payable" of "AccountTransaction".
+in C:\xampp\htdocs\lnuneza\protected\modules\fund\controllers\accounttransaction\create.php (13)
+in C:\xampp\htdocs\lnuneza\index.php (14)
+2016/10/06 07:51:32 [warning] [application] Failed to set unsafe attribute "is_payable" of "AccountTransaction".
+in C:\xampp\htdocs\lnuneza\protected\modules\fund\controllers\accounttransaction\create.php (13)
+in C:\xampp\htdocs\lnuneza\index.php (14)
+2016/10/06 07:51:45 [warning] [application] Failed to set unsafe attribute "is_payable" of "AccountTransaction".
+in C:\xampp\htdocs\lnuneza\protected\modules\fund\controllers\accounttransaction\create.php (13)
+in C:\xampp\htdocs\lnuneza\index.php (14)
+2016/10/06 08:00:20 [warning] [application] Failed to set unsafe attribute "is_payable" of "AccountTransaction".
+in C:\xampp\htdocs\lnuneza\protected\modules\fund\controllers\accounttransaction\create.php (13)
+in C:\xampp\htdocs\lnuneza\index.php (14)
+2016/10/06 08:00:45 [warning] [application] Failed to set unsafe attribute "is_payable" of "AccountTransaction".
+in C:\xampp\htdocs\lnuneza\protected\modules\fund\controllers\accounttransaction\create.php (13)
+in C:\xampp\htdocs\lnuneza\index.php (14)
+2016/10/06 08:00:58 [warning] [application] Failed to set unsafe attribute "is_payable" of "AccountTransaction".
+in C:\xampp\htdocs\lnuneza\protected\modules\fund\controllers\accounttransaction\create.php (13)
+in C:\xampp\htdocs\lnuneza\index.php (14)
+2016/10/06 08:00:58 [error] [exception.CException] exception 'CException' with message 'AccountTransactionController and its behaviors do not have a method or closure named "_setGrowler".' in C:\xampp\htdocs\lnuneza\yii\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\lnuneza\protected\modules\fund\controllers\accounttransaction\create.php(17): CComponent->__call('_setGrowler', Array)
+#1 C:\xampp\htdocs\lnuneza\protected\modules\fund\controllers\accounttransaction\create.php(17): AccountTransactionController->_setGrowler('Success!', 'Transaction suc...', 'info')
+#2 C:\xampp\htdocs\lnuneza\yii\web\actions\CAction.php(76): Create->run()
+#3 C:\xampp\htdocs\lnuneza\yii\web\CController.php(308): CAction->runWithParams(Array)
+#4 C:\xampp\htdocs\lnuneza\yii\web\CController.php(286): CController->runAction(Object(Create))
+#5 C:\xampp\htdocs\lnuneza\yii\web\CController.php(265): CController->runActionWithFilters(Object(Create), Array)
+#6 C:\xampp\htdocs\lnuneza\yii\web\CWebApplication.php(282): CController->run('create')
+#7 C:\xampp\htdocs\lnuneza\yii\web\CWebApplication.php(141): CWebApplication->runController('fund/accounttra...')
+#8 C:\xampp\htdocs\lnuneza\yii\base\CApplication.php(184): CWebApplication->processRequest()
+#9 C:\xampp\htdocs\lnuneza\index.php(14): CApplication->run()
+#10 {main}
+REQUEST_URI=/lnuneza/fund/accounttransaction/create
+HTTP_REFERER=http://localhost/lnuneza/fund/accounttransaction/create
+---
+2016/10/06 08:03:42 [warning] [application] Failed to set unsafe attribute "is_payable" of "AccountTransaction".
+in C:\xampp\htdocs\lnuneza\protected\modules\fund\controllers\accounttransaction\create.php (13)
+in C:\xampp\htdocs\lnuneza\index.php (14)
+2016/10/06 08:10:00 [error] [exception.CException] exception 'CException' with message 'AccountTransactionController and its behaviors do not have a method or closure named "_lists".' in C:\xampp\htdocs\lnuneza\yii\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\lnuneza\protected\modules\fund\controllers\accounttransaction\update.php(30): CComponent->__call('_lists', Array)
+#1 C:\xampp\htdocs\lnuneza\protected\modules\fund\controllers\accounttransaction\update.php(30): AccountTransactionController->_lists()
+#2 [internal function]: Update->run('5')
+#3 C:\xampp\htdocs\lnuneza\yii\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(Update), Array)
+#4 C:\xampp\htdocs\lnuneza\yii\web\actions\CAction.php(74): CAction->runWithParamsInternal(Object(Update), Object(ReflectionMethod), Array)
+#5 C:\xampp\htdocs\lnuneza\yii\web\CController.php(308): CAction->runWithParams(Array)
+#6 C:\xampp\htdocs\lnuneza\yii\web\CController.php(286): CController->runAction(Object(Update))
+#7 C:\xampp\htdocs\lnuneza\yii\web\CController.php(265): CController->runActionWithFilters(Object(Update), Array)
+#8 C:\xampp\htdocs\lnuneza\yii\web\CWebApplication.php(282): CController->run('update')
+#9 C:\xampp\htdocs\lnuneza\yii\web\CWebApplication.php(141): CWebApplication->runController('fund/accounttra...')
+#10 C:\xampp\htdocs\lnuneza\yii\base\CApplication.php(184): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\lnuneza\index.php(14): CApplication->run()
+#12 {main}
+REQUEST_URI=/lnuneza/fund/accounttransaction/update/id/5
+HTTP_REFERER=http://localhost/lnuneza/fund/accounttransaction/index
+---
+2016/10/06 08:13:59 [warning] [application] Failed to set unsafe attribute "is_payable" of "AccountTransaction".
+in C:\xampp\htdocs\lnuneza\protected\modules\fund\controllers\accounttransaction\update.php (18)
+in C:\xampp\htdocs\lnuneza\index.php (14)
+2016/10/06 08:13:59 [warning] [application] Failed to set unsafe attribute "is_paid" of "AccountTransaction".
+in C:\xampp\htdocs\lnuneza\protected\modules\fund\controllers\accounttransaction\update.php (18)
+in C:\xampp\htdocs\lnuneza\index.php (14)
+2016/10/06 08:14:23 [warning] [application] Failed to set unsafe attribute "is_payable" of "AccountTransaction".
+in C:\xampp\htdocs\lnuneza\protected\modules\fund\controllers\accounttransaction\update.php (18)
+in C:\xampp\htdocs\lnuneza\index.php (14)
+2016/10/06 08:14:23 [warning] [application] Failed to set unsafe attribute "is_paid" of "AccountTransaction".
+in C:\xampp\htdocs\lnuneza\protected\modules\fund\controllers\accounttransaction\update.php (18)
+in C:\xampp\htdocs\lnuneza\index.php (14)
+2016/10/06 08:17:06 [warning] [application] Failed to set unsafe attribute "is_payable" of "AccountTransaction".
+in C:\xampp\htdocs\lnuneza\protected\modules\fund\controllers\accounttransaction\update.php (18)
+in C:\xampp\htdocs\lnuneza\index.php (14)
+2016/10/06 08:17:06 [warning] [application] Failed to set unsafe attribute "is_paid" of "AccountTransaction".
+in C:\xampp\htdocs\lnuneza\protected\modules\fund\controllers\accounttransaction\update.php (18)
+in C:\xampp\htdocs\lnuneza\index.php (14)
+2016/10/06 08:17:35 [warning] [application] Failed to set unsafe attribute "is_payable" of "AccountTransaction".
+in C:\xampp\htdocs\lnuneza\protected\modules\fund\controllers\accounttransaction\update.php (18)
+in C:\xampp\htdocs\lnuneza\index.php (14)
+2016/10/06 08:17:35 [warning] [application] Failed to set unsafe attribute "is_paid" of "AccountTransaction".
+in C:\xampp\htdocs\lnuneza\protected\modules\fund\controllers\accounttransaction\update.php (18)
+in C:\xampp\htdocs\lnuneza\index.php (14)
+2016/10/06 08:17:44 [warning] [application] Failed to set unsafe attribute "is_payable" of "AccountTransaction".
+in C:\xampp\htdocs\lnuneza\protected\modules\fund\controllers\accounttransaction\update.php (18)
+in C:\xampp\htdocs\lnuneza\index.php (14)
+2016/10/06 08:17:44 [warning] [application] Failed to set unsafe attribute "is_paid" of "AccountTransaction".
+in C:\xampp\htdocs\lnuneza\protected\modules\fund\controllers\accounttransaction\update.php (18)
+in C:\xampp\htdocs\lnuneza\index.php (14)
+2016/10/06 08:27:57 [warning] [application] Failed to set unsafe attribute "is_payable" of "AccountTransaction".
+in C:\xampp\htdocs\lnuneza\protected\modules\fund\controllers\accounttransaction\create.php (13)
+in C:\xampp\htdocs\lnuneza\index.php (14)
+2016/10/06 08:28:40 [warning] [application] Failed to set unsafe attribute "is_payable" of "AccountTransaction".
+in C:\xampp\htdocs\lnuneza\protected\modules\fund\controllers\accounttransaction\update.php (18)
+in C:\xampp\htdocs\lnuneza\index.php (14)
+2016/10/06 08:28:40 [warning] [application] Failed to set unsafe attribute "is_paid" of "AccountTransaction".
+in C:\xampp\htdocs\lnuneza\protected\modules\fund\controllers\accounttransaction\update.php (18)
+in C:\xampp\htdocs\lnuneza\index.php (14)
+2016/10/06 08:29:09 [warning] [application] Failed to set unsafe attribute "is_payable" of "AccountTransaction".
+in C:\xampp\htdocs\lnuneza\protected\modules\fund\controllers\accounttransaction\update.php (18)
+in C:\xampp\htdocs\lnuneza\index.php (14)
+2016/10/06 08:29:09 [warning] [application] Failed to set unsafe attribute "is_paid" of "AccountTransaction".
+in C:\xampp\htdocs\lnuneza\protected\modules\fund\controllers\accounttransaction\update.php (18)
+in C:\xampp\htdocs\lnuneza\index.php (14)
+2016/10/06 08:29:52 [warning] [application] Failed to set unsafe attribute "is_payable" of "AccountTransaction".
+in C:\xampp\htdocs\lnuneza\protected\modules\fund\controllers\accounttransaction\update.php (18)
+in C:\xampp\htdocs\lnuneza\index.php (14)
+2016/10/06 08:29:52 [warning] [application] Failed to set unsafe attribute "is_paid" of "AccountTransaction".
+in C:\xampp\htdocs\lnuneza\protected\modules\fund\controllers\accounttransaction\update.php (18)
+in C:\xampp\htdocs\lnuneza\index.php (14)
+2016/10/06 08:50:05 [warning] [application] Failed to set unsafe attribute "is_payable" of "AccountTransaction".
+in C:\xampp\htdocs\lnuneza\protected\modules\fund\controllers\accounttransaction\update.php (18)
+in C:\xampp\htdocs\lnuneza\index.php (14)
+2016/10/06 08:50:05 [warning] [application] Failed to set unsafe attribute "is_paid" of "AccountTransaction".
+in C:\xampp\htdocs\lnuneza\protected\modules\fund\controllers\accounttransaction\update.php (18)
+in C:\xampp\htdocs\lnuneza\index.php (14)
+2016/10/06 08:55:09 [warning] [application] Failed to set unsafe attribute "is_payable" of "AccountTransaction".
+in C:\xampp\htdocs\lnuneza\protected\modules\fund\controllers\accounttransaction\update.php (18)
+in C:\xampp\htdocs\lnuneza\index.php (14)
+2016/10/06 08:55:09 [warning] [application] Failed to set unsafe attribute "is_paid" of "AccountTransaction".
+in C:\xampp\htdocs\lnuneza\protected\modules\fund\controllers\accounttransaction\update.php (18)
+in C:\xampp\htdocs\lnuneza\index.php (14)
+2016/10/06 09:05:48 [warning] [application] Failed to set unsafe attribute "is_payable" of "AccountTransaction".
+in C:\xampp\htdocs\lnuneza\protected\modules\fund\controllers\accounttransaction\update.php (18)
+in C:\xampp\htdocs\lnuneza\index.php (14)
+2016/10/06 09:05:48 [warning] [application] Failed to set unsafe attribute "is_paid" of "AccountTransaction".
+in C:\xampp\htdocs\lnuneza\protected\modules\fund\controllers\accounttransaction\update.php (18)
+in C:\xampp\htdocs\lnuneza\index.php (14)

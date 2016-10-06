@@ -28,8 +28,6 @@ class Menu extends CWidget
 
             $module = Yii::app()->getModule($key);
 
-            if($key == 'wifi') continue;
-
             $items_sub = array();
 
             foreach ($this->tabs($module) as $key => $tab_v) {
