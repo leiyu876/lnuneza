@@ -4065,3 +4065,85 @@ in C:\xampp\htdocs\lnuneza\index.php (14)
 2016/10/06 09:05:48 [warning] [application] Failed to set unsafe attribute "is_paid" of "AccountTransaction".
 in C:\xampp\htdocs\lnuneza\protected\modules\fund\controllers\accounttransaction\update.php (18)
 in C:\xampp\htdocs\lnuneza\index.php (14)
+2016/10/06 18:08:42 [error] [exception.CException] exception 'CException' with message 'Agency and its behaviors do not have a method or closure named "getAccounts".' in C:\xampp\htdocs\lnuneza\yii\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\lnuneza\yii\db\ar\CActiveRecord.php(227): CComponent->__call('getAccounts', Array)
+#1 C:\xampp\htdocs\lnuneza\protected\modules\fund\views\agency\index.php(99): CActiveRecord->__call('getAccounts', Array)
+#2 C:\xampp\htdocs\lnuneza\protected\modules\fund\views\agency\index.php(99): Agency->getAccounts()
+#3 C:\xampp\htdocs\lnuneza\yii\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\lnuneza\yii\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#5 C:\xampp\htdocs\lnuneza\yii\web\CController.php(869): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#6 C:\xampp\htdocs\lnuneza\yii\web\CController.php(782): CController->renderPartial('index', Array, true)
+#7 C:\xampp\htdocs\lnuneza\protected\modules\fund\controllers\agency\create.php(30): CController->render('index', Array)
+#8 C:\xampp\htdocs\lnuneza\yii\web\actions\CAction.php(76): Create->run()
+#9 C:\xampp\htdocs\lnuneza\yii\web\CController.php(308): CAction->runWithParams(Array)
+#10 C:\xampp\htdocs\lnuneza\yii\web\CController.php(286): CController->runAction(Object(Create))
+#11 C:\xampp\htdocs\lnuneza\yii\web\CController.php(265): CController->runActionWithFilters(Object(Create), Array)
+#12 C:\xampp\htdocs\lnuneza\yii\web\CWebApplication.php(282): CController->run('create')
+#13 C:\xampp\htdocs\lnuneza\yii\web\CWebApplication.php(141): CWebApplication->runController('fund/agency/cre...')
+#14 C:\xampp\htdocs\lnuneza\yii\base\CApplication.php(184): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\lnuneza\index.php(14): CApplication->run()
+#16 {main}
+REQUEST_URI=/lnuneza/fund/agency/create
+HTTP_REFERER=http://localhost/lnuneza/fund/agency/index
+---
+2016/10/06 18:11:38 [warning] [application] Failed to set unsafe attribute "contact_num" of "Agency".
+in C:\xampp\htdocs\lnuneza\protected\modules\fund\controllers\agency\create.php (13)
+in C:\xampp\htdocs\lnuneza\index.php (14)
+2016/10/06 18:11:38 [warning] [application] Failed to set unsafe attribute "contact_person" of "Agency".
+in C:\xampp\htdocs\lnuneza\protected\modules\fund\controllers\agency\create.php (13)
+in C:\xampp\htdocs\lnuneza\index.php (14)
+2016/10/06 18:11:38 [warning] [application] Failed to set unsafe attribute "website" of "Agency".
+in C:\xampp\htdocs\lnuneza\protected\modules\fund\controllers\agency\create.php (13)
+in C:\xampp\htdocs\lnuneza\index.php (14)
+2016/10/06 18:11:38 [warning] [application] Failed to set unsafe attribute "date_expiry" of "Agency".
+in C:\xampp\htdocs\lnuneza\protected\modules\fund\controllers\agency\create.php (13)
+in C:\xampp\htdocs\lnuneza\index.php (14)
+2016/10/06 18:15:09 [warning] [application] Failed to set unsafe attribute "contact_num" of "Agency".
+in C:\xampp\htdocs\lnuneza\protected\modules\fund\controllers\agency\create.php (13)
+in C:\xampp\htdocs\lnuneza\index.php (14)
+2016/10/06 18:15:09 [warning] [application] Failed to set unsafe attribute "contact_person" of "Agency".
+in C:\xampp\htdocs\lnuneza\protected\modules\fund\controllers\agency\create.php (13)
+in C:\xampp\htdocs\lnuneza\index.php (14)
+2016/10/06 18:15:09 [warning] [application] Failed to set unsafe attribute "website" of "Agency".
+in C:\xampp\htdocs\lnuneza\protected\modules\fund\controllers\agency\create.php (13)
+in C:\xampp\htdocs\lnuneza\index.php (14)
+2016/10/06 18:15:09 [warning] [application] Failed to set unsafe attribute "date_expiry" of "Agency".
+in C:\xampp\htdocs\lnuneza\protected\modules\fund\controllers\agency\create.php (13)
+in C:\xampp\htdocs\lnuneza\index.php (14)
+2017/03/22 09:53:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "site".' in C:\xampp\htdocs\lnuneza\yii\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\lnuneza\yii\web\CController.php(270): CController->missingAction('site')
+#1 C:\xampp\htdocs\lnuneza\yii\web\CWebApplication.php(282): CController->run('site')
+#2 C:\xampp\htdocs\lnuneza\yii\web\CWebApplication.php(141): CWebApplication->runController('site/site/login')
+#3 C:\xampp\htdocs\lnuneza\yii\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\lnuneza\index.php(14): CApplication->run()
+#5 {main}
+REQUEST_URI=/lnuneza/site/site/login
+---
+2017/09/07 22:26:21 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\xampp\htdocs\lnuneza\yii\web\CController.php:336
+Stack trace:
+#0 C:\xampp\htdocs\lnuneza\yii\web\CController.php(309): CController->invalidActionParams(Object(Update))
+#1 C:\xampp\htdocs\lnuneza\yii\web\CController.php(286): CController->runAction(Object(Update))
+#2 C:\xampp\htdocs\lnuneza\yii\web\CController.php(265): CController->runActionWithFilters(Object(Update), Array)
+#3 C:\xampp\htdocs\lnuneza\yii\web\CWebApplication.php(282): CController->run('update')
+#4 C:\xampp\htdocs\lnuneza\yii\web\CWebApplication.php(141): CWebApplication->runController('setup/template/...')
+#5 C:\xampp\htdocs\lnuneza\yii\base\CApplication.php(184): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\lnuneza\index.php(14): CApplication->run()
+#7 {main}
+REQUEST_URI=/lnuneza/setup/template/update/template_code/ADMINISTRATOR
+HTTP_REFERER=http://localhost/lnuneza/setup/template/index
+---
+2017/09/22 21:03:06 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\xampp\htdocs\lnuneza\yii\web\CController.php:336
+Stack trace:
+#0 C:\xampp\htdocs\lnuneza\yii\web\CController.php(309): CController->invalidActionParams(Object(Update))
+#1 C:\xampp\htdocs\lnuneza\yii\web\CController.php(286): CController->runAction(Object(Update))
+#2 C:\xampp\htdocs\lnuneza\yii\web\CController.php(265): CController->runActionWithFilters(Object(Update), Array)
+#3 C:\xampp\htdocs\lnuneza\yii\web\CWebApplication.php(282): CController->run('update')
+#4 C:\xampp\htdocs\lnuneza\yii\web\CWebApplication.php(141): CWebApplication->runController('setup/template/...')
+#5 C:\xampp\htdocs\lnuneza\yii\base\CApplication.php(184): CWebApplication->processRequest()
+#6 C:\xampp\htdocs\lnuneza\index.php(14): CApplication->run()
+#7 {main}
+REQUEST_URI=/lnuneza/setup/template/update/template_code/ADMINISTRATOR
+HTTP_REFERER=http://localhost/lnuneza/setup/template/index
+---
