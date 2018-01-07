@@ -14,7 +14,7 @@
 	<body class="hold-transition login-page">
 		<div class="login-box">
 		  	<div class="login-logo">
-			    <a href="<?= Yii::app()->request->baseUrl; ?>"><b>Admin</b>LTE</a>
+			    <a href="<?= Yii::app()->request->baseUrl; ?>"><b>Nuneza</b>LEO</a>
 		  	</div>	  
 		  	<div class="login-box-body">
 		    	<p class="login-box-msg">Sign in to start your session</p>		    	
