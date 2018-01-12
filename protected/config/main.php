@@ -16,6 +16,7 @@ return array(
 	'import'=>array(
 		'application.models.*',
 		'application.modules.fund.models.*',
+		'application.modules.rahdan.models.*',
 		'application.components.frameworks.*',
 		'application.components.helpers.*'
 	),
@@ -31,6 +32,7 @@ return array(
 		),
 		*/
 		'fund',
+		'rahdan',
 		'setup'
 	),
 
