@@ -16,7 +16,7 @@ class Create extends CAction {
 
                 $ctr->_setGrowler('Success!', 'Transaction successfully added.', 'info');
 
-                $ctr->redirect(Url::l('fatora/fatora/index'));
+                $ctr->redirect(Url::l('rahdan/fatora/index'));
             }            
         }
 
