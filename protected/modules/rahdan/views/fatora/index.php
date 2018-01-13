@@ -46,7 +46,7 @@
                             <td><?= $user->partno ?></td>
                             <td><?= $user->salesman ?></td>
                             <td><?= $user->qty ?></td>
-                            <td><?= $user->date ?></td>
+                            <td><?= $model_common->getFormatDateDisplay($user->date) ?></td>
                             <td><?= $user->status ?></td>
                             <td>
                                 <a href="<?= Url::l('rahdan/fatora/update/id/'.$user->fatoraid) ?>" class="tooltips action-update" data-toggle="tooltip" title="Update"><i class="fa fa-pencil"></i></a>&nbsp;
@@ -84,7 +84,7 @@
                                       <div class="input-group-addon">
                                         <i class="fa fa-calendar"></i>
                                       </div>
-                                      <input name="Fatora[<?= $attribute ?>]" value="<?= isset($model->$attribute) ? date('m/d/Y', strtotime($model->$attribute)) : date('d/m/Y') ?>" type="text" class="form-control pull-right datepicker-basic">
+                                      <input name="Fatora[<?= $attribute ?>]" value="<?= isset($model->$attribute) ? date('d/m/Y', strtotime($model->$attribute)) : date('d/m/Y') ?>" type="text" class="form-control pull-right datepicker-basic">
                                     </div>
                                 </div>
                             </div>

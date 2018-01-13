@@ -45,16 +45,30 @@ class Fatora extends CActiveRecord
         );
     }
     
-    public function getFatoraOptions()
-    {
+    public function getFatoraOptions() {
+
         return array(
         	'unfinished' => 'Unfinished',
             'finished' => 'Finished',            
         );
     }
 
-	public static function model($className = __CLASS__)
-	{
+    public function getFormatDate($date) {
+
+    	$date = DateTime::createFromFormat('d/m/Y', $date);
+		
+		return $date->format('m/d/Y');
+	}
+
+	public function getFormatDateDisplay($date) {
+
+		$date = DateTime::createFromFormat('Y-m-d', $date);
+		
+		return $date->format('d/m/Y');	
+	}
+
+	public static function model($className = __CLASS__) {
+
 		return parent::model($className);
 	}
 }

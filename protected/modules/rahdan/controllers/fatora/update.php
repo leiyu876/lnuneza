@@ -17,6 +17,8 @@ class Update extends CAction {
             
             $model->attributes = $_POST['Fatora'];
             
+            $model->date = $model->getFormatDate($model->date);
+
             if($model->save()) {
 
                 $ctr->_setGrowler('Success!', 'Fatora successfully updated.', 'info');
