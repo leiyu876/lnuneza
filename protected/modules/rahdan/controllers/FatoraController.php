@@ -9,6 +9,7 @@ class FatoraController extends Controller
             'index' => 'application.modules.rahdan.controllers.fatora.index',
             'update' => 'application.modules.rahdan.controllers.fatora.update',
             'create' => 'application.modules.rahdan.controllers.fatora.create',
+            'delete' => 'application.modules.rahdan.controllers.fatora.delete',
         );
     }
 

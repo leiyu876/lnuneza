@@ -50,6 +50,7 @@
                             <td><?= $user->status ?></td>
                             <td>
                                 <a href="<?= Url::l('rahdan/fatora/update/id/'.$user->fatoraid) ?>" class="tooltips action-update" data-toggle="tooltip" title="Update"><i class="fa fa-pencil"></i></a>&nbsp;
+                                <a href="<?= Url::l('rahdan/fatora/delete/id/'.$user->fatoraid) ?>" class="tooltips action-delete" data-toggle="tooltip" title="Delete"><i class="fa fa-trash-o"></i></a>&nbsp;
                             </td>
                         </tr>
                     <? endforeach ?>              
