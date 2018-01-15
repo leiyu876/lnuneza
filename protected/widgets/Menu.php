@@ -29,7 +29,7 @@ class Menu extends CWidget
             $module = Yii::app()->getModule($key);
 
             $items_sub = array();
-
+            
             foreach ($this->tabs($module) as $key => $tab_v) {
                 
                 $items_sub[] = array(

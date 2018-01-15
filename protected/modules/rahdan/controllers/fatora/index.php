@@ -6,10 +6,24 @@ class Index extends CAction {
     {
         $ctr = $this -> getController();
      	
+        $lists = array();
+        $model = new Fatora();
+
+        if(isset($_POST['salesmanselect'])) {
+
+            $model->salesman = $_POST['salesmanselect'];
+
+            $lists = $ctr->listsBySalesman($_POST['salesmanselect']);
+            
+        } else {
+
+            $lists = $ctr->lists();
+        }
+
         $data = array(
             'title' => $ctr->getTabName(),            
-            'lists' => $ctr->lists(),
-            'model_common' => new Fatora,
+            'lists' => $lists,
+            'model_common' => $model,
         );
 
         $ctr->render('index', $data);

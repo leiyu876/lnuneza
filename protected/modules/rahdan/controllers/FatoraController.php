@@ -22,6 +22,16 @@ class FatoraController extends Controller
         return $lists;
     }
 
+    public function listsBySalesman($salesman)
+    {
+        $lists = Fatora::model()->findAll(array(
+            'order' => 'salesman',
+            'condition' => "salesman = '".$salesman."'"
+        ));
+        
+        return $lists;
+    }
+
     public function _setGrowler($title, $message, $css)
     {
         $growler = array(
