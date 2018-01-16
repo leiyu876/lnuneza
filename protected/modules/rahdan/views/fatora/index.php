@@ -23,25 +23,47 @@
     <? endif ?>
     <div class="box">
         <div class="box-header">
-            <div class="col-md-6">            
+            <div class="col-md-5">            
+                <?= CHtml::beginForm('index', $method='post',array('id'=>'formId')); ?>
                 <div class="form-group">
                     <label for="inputEmail3" class="col-sm-2 control-label">Salesman</label>
                     <div class="col-sm-10">
-                        <?= CHtml::beginForm('index', $method='post',array('id'=>'formId')); ?>
+                        
                             <?= CHtml::activeDropDownList(
                                 $model_common, 
                                 'salesman', 
                                 $model_common->getSalesmanOptions(), 
                                 array(
+                                    'prompt' => 'All',
                                     'class' => 'form-control select-search', 
                                     'name' => 'salesmanselect', 
                                     'onchange' => 'this.form.submit()'                       
                                 )                        
                             ); ?>
-                        <?= CHtml::endForm(); ?>
+                        
                     </div>
-                </div>            
-            </div>
+                </div>
+                <br/><br/>            
+                <div class="form-group">
+                    <label for="inputEmail3" class="col-sm-2 control-label">Fatora</label>
+                    <div class="col-sm-10">
+                        
+                            <?= CHtml::activeDropDownList(
+                                $model_common, 
+                                'status', 
+                                $model_common->getFatoraOptions(), 
+                                array(
+                                    'prompt' => 'All',
+                                    'class' => 'form-control select-search', 
+                                    'name' => 'fatoraselect', 
+                                    'onchange' => 'this.form.submit()'                       
+                                )                        
+                            ); ?>
+                        
+                    </div>
+                </div>
+                <?= CHtml::endForm(); ?>
+            </div>            
             <a href="<?= Url::l('rahdan/fatora/create'); ?>" class="btn btn-primary pull-right">Add Fatora</a>
             <h3 class="box-title"> </h3>
         </div>        

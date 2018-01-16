@@ -22,11 +22,28 @@ class FatoraController extends Controller
         return $lists;
     }
 
-    public function listsBySalesman($salesman)
+    public function listsByFilter($salesman, $fatora)
     {
+        $con = '';
+
+        if($salesman != '') {
+
+            $con = "salesman = '".$salesman."'";
+        }
+
+        if($fatora != '') {
+
+            if($con != '') {
+
+                $con .= ' and ';
+            }
+
+            $con .= "status = '".$fatora."'";
+        }
+
         $lists = Fatora::model()->findAll(array(
             'order' => 'salesman',
-            'condition' => "salesman = '".$salesman."'"
+            'condition' => $con
         ));
         
         return $lists;

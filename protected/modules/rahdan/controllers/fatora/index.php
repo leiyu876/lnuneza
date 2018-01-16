@@ -9,15 +9,29 @@ class Index extends CAction {
         $lists = array();
         $model = new Fatora();
 
-        if(isset($_POST['salesmanselect'])) {
+        if(isset($_POST['salesmanselect']) || isset($_POST['fatoraselect'])) {
 
-            $model->salesman = $_POST['salesmanselect'];
+            if($_POST['salesmanselect'] != '') {
 
-            $lists = $ctr->listsBySalesman($_POST['salesmanselect']);
+                $model->salesman = $_POST['salesmanselect'];    
+            }
+
+            if($_POST['fatoraselect'] != '') {
+
+                $model->status = $_POST['fatoraselect'];    
+            }
             
+            $lists = $ctr->listsByFilter($_POST['salesmanselect'], $_POST['fatoraselect']);
+            
+        } elseif(!isset($_POST['salesmanselect']) && !isset($_POST['fatoraselect'])) {
+
+            $lists = $ctr->listsByFilter('', 'unfinished');
+
+            $model->status = 'unfinished';
+
         } else {
 
-            $lists = $ctr->lists();
+            $lists = $ctr->lists();            
         }
 
         $data = array(

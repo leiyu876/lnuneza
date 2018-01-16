@@ -30,7 +30,6 @@ class Fatora extends CActiveRecord
 
 	public function getAccounts()
     { 
-    	var_dump(CHtml::listData(Fatora::model()->findAll(), 'salesman', 'date')); exit;
     	return CHtml::listData(Fatora::model()->findAll(), 'salesman', 'date');
     }
 
