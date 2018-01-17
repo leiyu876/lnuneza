@@ -48,7 +48,8 @@ class Fatora extends CActiveRecord
 
         return array(
         	'unfinished' => 'Unfinished',
-            'finished' => 'Finished',            
+            'finished' => 'Finished',
+            'return' => 'Return',            
         );
     }
 
